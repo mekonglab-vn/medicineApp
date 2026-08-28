@@ -41,6 +41,7 @@ data/*
 !data/examples/**
 models/*
 !models/README.md
+private/
 reports/**/mlkit_ocr/
 reports/**/*predictions*.jsonl
 reports/**/per_capture.csv

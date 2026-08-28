@@ -1,72 +1,192 @@
-# MedicineApp — ISBM 2026 Public Research Artifact
+<div align="center">
+  <img src="mobile/logo_1024x1024.png" alt="MedicineApp logo" width="180">
+  <h1>MedicineApp</h1>
+  <p><strong>ISBM 2026 public research artifact for Vietnamese prescription OCR, medication extraction, and ROI re-OCR.</strong></p>
+  <p>
+    <a href="#quick-public-verification">Verify results</a> ·
+    <a href="#install-and-run-the-application">Install the app</a> ·
+    <a href="#reproduce-the-paper-experiments">Reproduce experiments</a> ·
+    <a href="REPRODUCIBILITY.md">Reproducibility contract</a> ·
+    <a href="LICENSE">MIT License</a>
+  </p>
+</div>
 
-This branch contains the public software artifact associated with the paper:
+> [!WARNING]
+> MedicineApp is a research prototype, not a medical device. OCR output and
+> extracted medication information require human verification and must not be
+> used as the sole basis for diagnosis, prescribing, dispensing, or dosing.
 
-> **A Mobile Information System for Drug Extraction from Vietnamese Prescriptions: OCR Layout Ablation and Text-Anchored ROI Re-OCR under Challenging Smartphone Conditions**
+## Project overview
 
-The artifact includes the Flutter application interface, the Python and Node.js pipeline code, the RQ1/RQ2 evaluation programs, and aggregate result files that can be checked without access to restricted prescription data.
+MedicineApp studies an edge–cloud workflow for extracting medication
+information from Vietnamese prescriptions captured by a smartphone. The mobile
+client performs document acquisition and on-device Google ML Kit OCR. Structured
+OCR observations are then processed by layout reconstruction, a fixed PhoBERT
+named-entity recognition model, and a Vietnamese drug-name normalization layer.
 
-> **Research prototype:** this software is not a medical device and must not be used to make clinical decisions. OCR and extracted medication names require human verification.
+The repository accompanies the ISBM 2026 paper:
 
-## What is public
+> **A Mobile Information System for Drug Extraction from Vietnamese
+> Prescriptions: OCR Layout Ablation and Text-Anchored ROI Re-OCR under
+> Challenging Smartphone Conditions**
 
-- Flutter mobile/web interface for scanning, reviewing, and managing prescription-derived drafts.
-- Python extraction pipeline and FastAPI service.
-- Node.js API and database layer.
-- P0–P3 OCR-layout ablation code.
-- R0 full-page versus R1 ROI re-OCR evaluation code.
-- Public aggregate CSV/JSON results and a consistency verifier.
-- Tests that do not require private prescription files.
+The public artifact is designed for three uses:
 
-## What is not public
+1. inspect the Flutter application and backend implementation;
+2. verify the published aggregate RQ1/RQ2 results without private data; and
+3. re-execute the experiments when the user has separately authorized model,
+   OCR, annotation, and normalization resources.
 
-- Original prescription images or screenshots containing prescription text.
-- Per-capture OCR JSON, ground-truth medication lists, prediction JSONL, or provenance records.
-- The provider-controlled 9,284-record drug database.
-- VAIPE images or files whose redistribution terms have not been confirmed.
-- The frozen PhoBERT checkpoint and other model weights.
+## Application preview
 
-These exclusions are intentional. They protect privacy, consent, and third-party licensing while leaving the implementation and aggregate claims inspectable. See [DATA_AND_MODEL_AVAILABILITY.md](docs/DATA_AND_MODEL_AVAILABILITY.md).
+The images below are committed test/golden assets generated for the public
+codebase. They contain no real prescription photographs or patient information.
 
-## Reported results
+<table>
+  <tr>
+    <td align="center"><img src="mobile/test/features/lookup/goldens/lookup_interactions_success.png" alt="Medication interaction lookup interface" width="280"></td>
+    <td align="center"><img src="mobile/test/features/lookup/goldens/lookup_ingredient_catalog.png" alt="Active ingredient catalogue interface" width="280"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Medication interaction lookup</sub></td>
+    <td align="center"><sub>Active ingredient catalogue</sub></td>
+  </tr>
+</table>
 
-### RQ1: OCR representation ablation
+## System workflow
 
-| Strategy | Micro precision | Micro recall | Micro F1 |
-|---|---:|---:|---:|
-| P0 raw lines | 89.36% | 30.02% | 44.94% |
-| P1 sorted lines | 89.36% | 30.02% | 44.94% |
-| P2 row clusters | 82.79% | 25.49% | 38.98% |
-| P3 medication bands | 90.63% | 19.59% | 32.22% |
+```mermaid
+flowchart LR
+    A[Smartphone prescription image] --> B[Document crop and perspective correction]
+    B --> C[On-device Google ML Kit OCR]
+    C --> D[Layout representation: P0–P3]
+    D --> E[PhoBERT medication NER]
+    E --> F[Drug-name normalization]
+    F --> G[Human review in Flutter app]
+    G --> H[Medication plan and reminders]
+    B -. optional user-selected table ROI .-> I[ROI re-OCR: R1]
+    I --> D
+```
 
-### RQ2: paired full-page versus ROI re-OCR
+Core research questions:
 
-| Condition | OCR coverage | Precision | Recall | Micro F1 |
-|---|---:|---:|---:|---:|
-| R0 full-page OCR | 90.51% | 77.61% | 75.91% | 76.75% |
-| R1 ROI re-OCR | 92.70% | 80.74% | 79.56% | 80.15% |
+- **RQ1 — layout representation:** compare P0 raw text, P1 sorted lines, P2 row
+  clusters, and P3 medication bands under a fixed downstream pipeline.
+- **RQ2 — ROI intervention:** compare R0 full-page OCR with R1 user-guided
+  medication-table ROI re-OCR on paired smartphone captures.
 
-The paired transition counts were 95 successes in both conditions, 14 R1 recoveries, 9 R1 regressions, and 19 misses in both conditions. The exact two-sided McNemar/binomial test returned `p = 0.4049`; the numerical gain should therefore not be interpreted as established superiority.
+## Repository contents
 
-## Verify the public artifact
+| Path | Contents |
+| --- | --- |
+| `mobile/` | Flutter UI, Android document scanner, on-device ML Kit OCR bridge, tests and safe golden images |
+| `core/` | OCR layout reconstruction, PhoBERT NER adapter, filtering and drug normalization |
+| `server/` | Python FastAPI AI service |
+| `server-node/` | Node.js API, PostgreSQL persistence, authentication, plans and interaction services |
+| `scripts/` | CLI runner, RQ1/RQ2 benchmarks, phone OCR orchestration and public verifier |
+| `reports/` | Aggregate publication CSV/JSON only |
+| `data/` | Data-availability instructions; no prescription-derived data |
+| `models/` | Model-availability instructions; no weights |
+| `docs/` | Publication manifest, data/model boundary, compliance and supplementary-artifact notes |
 
-Only Python's standard library is required:
+## Quick public verification
+
+The public aggregate verifier requires only Python 3 and its standard library.
+
+```bash
+git clone https://github.com/mekonglab-vn/medicineapp-isbm-2026.git
+cd medicineapp-isbm-2026
+./reproduce.sh
+```
+
+Expected final messages:
+
+```text
+PASS: aggregate RQ1/RQ2 results and public-artifact boundary are consistent
+OK
+```
+
+This verifies result tables, transition arithmetic, the exact paired p-value,
+stored confidence intervals, and the absence of restricted artifact classes. It
+does **not** run ML Kit OCR or PhoBERT inference.
+
+Equivalent commands:
 
 ```bash
 python3 scripts/verify_published_results.py
-```
-
-Or run the public test:
-
-```bash
 python3 -m unittest tests/test_public_artifact_consistency.py
 ```
 
-The verifier checks the published aggregate tables, transition arithmetic, confidence intervals, and the absence of restricted artifact classes.
+## Install and run the application
 
-## Run the application interface
+### Prerequisites
 
-Requirements: Flutter compatible with Dart `3.10.x` and an Android emulator, Android device, Linux desktop, or web target.
+| Component | Recommended environment |
+| --- | --- |
+| Git | 2.40 or newer |
+| Python | 3.10–3.12 |
+| Node.js | 20 LTS |
+| PostgreSQL | 16, or Docker with Compose |
+| Flutter | Stable release with Dart `>=3.10.4 <4.0.0` |
+| Android | Android SDK 34/35, JDK 17, Google Play-enabled emulator or device |
+
+### 1. Clone and configure
+
+```bash
+git clone https://github.com/mekonglab-vn/medicineapp-isbm-2026.git
+cd medicineapp-isbm-2026
+cp .env.example .env
+```
+
+Replace the placeholder values in `.env` with local secrets. Never commit this
+file. At minimum, set a strong `POSTGRES_PASSWORD` and `JWT_SECRET`.
+
+### 2. Prepare the controlled model and data resources
+
+The public repository intentionally excludes the model checkpoint, provider
+drug database, prescription images, OCR JSON, and ground truth. Obtain only the
+resources you are authorized to use from the
+[supplementary artifact folder on Google Drive](https://drive.google.com/drive/folders/12sm6zRuUiiAzQM8xxAFrLngVKZ07Kpul?usp=sharing)
+or from their original licensed sources.
+
+Expected local locations for application inference:
+
+```text
+models/phobert_ner_model/       # compatible token-classification checkpoint
+data/drug_db_vn_full.json       # authorized normalization database
+```
+
+These paths are ignored by Git. The recorded SHA-256 for the frozen nine-label
+PhoBERT checkpoint used in the paper is:
+
+```text
+d8e1ab2f6bc3d71480fffb6e487e5b63f36467a2d0a586585f871ce65b9d25f6
+```
+
+The Drive link is a distribution pointer, not a license grant. Access to a file
+does not by itself authorize publication or redistribution. See
+[`docs/SUPPLEMENTARY_ARTIFACTS.md`](docs/SUPPLEMENTARY_ARTIFACTS.md).
+
+### 3. Start the services
+
+Docker Compose is the simplest supported topology:
+
+```bash
+docker compose up --build
+```
+
+Default endpoints:
+
+- Node.js API: `http://localhost:3000/api`
+- Python AI service: `http://localhost:8000/api`
+- PostgreSQL: `localhost:5432`
+
+For manual service setup, see [`server-node/README.md`](server-node/README.md)
+and [`server/README.md`](server/README.md).
+
+### 4. Run the Flutter client
+
+Android emulator:
 
 ```bash
 cd mobile
@@ -74,33 +194,162 @@ flutter pub get
 flutter run --dart-define=API_BASE_URL=http://10.0.2.2:3000/api
 ```
 
-For a physical Android device connected by USB, expose the API port and use device localhost:
+Physical Android device over USB:
 
 ```bash
 adb reverse tcp:3000 tcp:3000
+cd mobile
 flutter run --dart-define=API_BASE_URL=http://127.0.0.1:3000/api
 ```
 
-The application source is included for interface inspection and research use. A full extraction run additionally requires the restricted or independently licensed resources described below.
+Mobile checks:
 
-## Repository layout
-
-```text
-mobile/       Flutter interface and Android ML Kit bridge
-core/         OCR representation, NER, normalization, and pipeline code
-server/       Python FastAPI service
-server-node/  Node.js API and PostgreSQL layer
-scripts/      Evaluation and public verification programs
-reports/      Aggregate publication results only
-data/         Availability instructions; no restricted data
-models/       Model availability instructions; no weights
-tests/        Public consistency and unit tests
+```bash
+cd mobile
+flutter analyze
+flutter test
 ```
 
-## Full experimental reproduction
+The Flutter UI can be inspected and tested without private prescription data.
+End-to-end medication extraction additionally requires the controlled resources
+from step 2.
 
-Exact re-execution of RQ1/RQ2 requires the same frozen checkpoint, OCR observations, ground truth, and drug catalog. Those files are not redistributed in this public branch. The commands, expected schemas, hashes where available, and verification levels are documented in [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
+### 5. Run the text pipeline directly
 
-## Citation and license
+After installing Python dependencies and supplying the checkpoint/database:
 
-Citation metadata is provided in [CITATION.cff](CITATION.cff). Source code in this branch is released under the [MIT License](LICENSE). Data, model weights, and third-party services are not automatically covered by the source-code license.
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python scripts/run_pipeline.py --text $'1) ExampleDrug 500mg\n2) ExampleDrugB 10mg'
+```
+
+Use synthetic examples only. Do not paste identifiable prescription text into
+logs, shell history, public issues, or shared terminals.
+
+## Reproduce the paper experiments
+
+The reproduction contract has two levels.
+
+### Level 1 — public aggregate verification
+
+```bash
+./reproduce.sh
+```
+
+This level is complete using only the GitHub repository.
+
+### Level 2 — authorized full re-execution
+
+Full execution requires the frozen checkpoint, authorized OCR observations,
+ground truth, and drug catalogue. Keep these resources outside Git history.
+
+RQ1 layout ablation:
+
+```bash
+python3 scripts/benchmark_real_mlkit_layout.py \
+  --rxie-root /absolute/path/to/authorized/rxie-root \
+  --output-dir /tmp/isbm-rq1-results \
+  --split val
+```
+
+RQ2 paired ROI re-OCR analysis:
+
+```bash
+python3 scripts/benchmark_real_medication_roi.py \
+  --ocr-dir /absolute/path/to/authorized/mlkit_ocr \
+  --visible-gt /absolute/path/to/authorized/visible_in_frame_gt.json \
+  --output-dir /tmp/isbm-rq2-results \
+  --bootstrap 10000
+```
+
+On-device R0/R1 OCR collection:
+
+```bash
+python3 scripts/run_real_roi_phone_ocr.py --help
+```
+
+See [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md) for input roles, schemas,
+environment details, expected outputs, seed interpretation, and claim limits.
+
+## Published aggregate results
+
+### RQ1 — OCR representation ablation
+
+| Strategy | Micro precision | Micro recall | Micro F1 |
+| --- | ---: | ---: | ---: |
+| P0 raw lines | 89.36% | 30.02% | 44.94% |
+| P1 sorted lines | 89.36% | 30.02% | 44.94% |
+| P2 row clusters | 82.79% | 25.49% | 38.98% |
+| P3 medication bands | 90.63% | 19.59% | 32.22% |
+
+### RQ2 — full page versus ROI re-OCR
+
+| Condition | OCR coverage | Precision | Recall | Micro F1 |
+| --- | ---: | ---: | ---: | ---: |
+| R0 full-page OCR | 90.51% | 77.61% | 75.91% | 76.75% |
+| R1 ROI re-OCR | 92.70% | 80.74% | 79.56% | 80.15% |
+
+The paired transition counts were 95 both-correct, 14 R1 recoveries, 9 R1
+regressions, and 19 both-incorrect. The exact two-sided McNemar/binomial result
+was `p = 0.4049`; therefore the numerical R1 increase must not be reported as
+established statistical superiority.
+
+## Public and controlled artifact boundary
+
+### Included on GitHub
+
+- application, service, and benchmark source code;
+- safe UI/golden images;
+- aggregate CSV/JSON reports;
+- public consistency and privacy-boundary checks; and
+- citation, availability, and reconstruction documentation.
+
+### Excluded from GitHub
+
+- real prescription photographs or screenshots;
+- capture-level OCR text and bounding boxes;
+- ground-truth medication lists and provenance records;
+- per-capture/per-instance predictions;
+- provider-controlled drug catalogues;
+- VAIPE files without confirmed redistribution rights; and
+- checkpoints and other model weights.
+
+See [`docs/PUBLICATION_MANIFEST.md`](docs/PUBLICATION_MANIFEST.md) and
+[`docs/DATA_AND_MODEL_AVAILABILITY.md`](docs/DATA_AND_MODEL_AVAILABILITY.md).
+
+## License, copyright, and compliance
+
+The source code and project-authored documentation are released under the
+[`MIT License`](LICENSE). No registration or fee is required to apply or use the
+MIT license. Copyright protection is generally automatic; voluntary copyright
+registration is a separate, optional process that may help document ownership.
+
+The MIT license does **not** automatically cover third-party datasets, model
+weights, provider drug catalogues, Google services, package dependencies, or
+files linked from Google Drive. Each retains its own terms and access rules.
+
+When processing real prescriptions, users are responsible for consent,
+institutional approval, information security, and applicable privacy law,
+including Vietnam's [Law on Personal Data Protection No. 91/2025/QH15](https://vanban.chinhphu.vn/?classid=1&docid=214590&pageid=27160&typegroup=).
+Do not place identifiable medical or prescription data in GitHub, public Drive
+folders, logs, screenshots, issues, or test fixtures.
+
+Read [`docs/LEGAL_AND_COMPLIANCE.md`](docs/LEGAL_AND_COMPLIANCE.md) before using
+the software with non-synthetic data. That document is general project guidance,
+not legal or medical advice.
+
+## Citation
+
+Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff).
+When publishing results derived from this artifact, cite the associated ISBM
+2026 paper and state whether you performed Level 1 aggregate verification or
+Level 2 full re-execution.
+
+## Security and responsible disclosure
+
+Do not open a public issue containing credentials, prescription data, model
+access links, or security-sensitive logs. Follow [`SECURITY.md`](SECURITY.md)
+for responsible disclosure guidance.

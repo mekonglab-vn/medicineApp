@@ -19,6 +19,12 @@ The following material is intentionally absent:
 - model weights and checkpoints;
 - full VAIPE data.
 
+Some large or controlled resources may be made available separately through the
+[MedicineApp ISBM 2026 supplementary Google Drive folder](https://drive.google.com/drive/folders/12sm6zRuUiiAzQM8xxAFrLngVKZ07Kpul?usp=sharing).
+The folder link is not a license grant and does not change the privacy,
+consent, institutional, or third-party redistribution requirements below. See
+[`SUPPLEMENTARY_ARTIFACTS.md`](SUPPLEMENTARY_ARTIFACTS.md).
+
 De-identification alone does not establish redistribution rights. Access to restricted material requires a separate review of consent, privacy, institutional policy, and third-party licenses.
 
 ## Reusing the code with independent resources
