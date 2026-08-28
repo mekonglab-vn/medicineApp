@@ -1,0 +1,4 @@
+# Requirements for Prescription Generator
+# Cài đặt bằng lệnh: pip install -r requirements.txt
+
+python-docx>=0.8.11

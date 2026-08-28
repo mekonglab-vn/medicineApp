@@ -1,33 +1,52 @@
-# ============================================
-# MedicineApp — Full Dependencies
-# ============================================
+# =============================================================================
+# MedicineApp — Python dependencies for the public research artifact
+# =============================================================================
+# Every package below is imported by code in this repository. Nothing else is
+# required. Install with:
+#
+#     python3 -m venv .venv && source .venv/bin/activate
+#     pip install -r requirements.txt
+#
+# NOTE: Level 1 verification (./reproduce.sh) needs NONE of these — it runs on
+# the Python 3 standard library alone. Install this file only when you intend to
+# run the NER pipeline or the RQ1/RQ2 benchmarks.
+# =============================================================================
 
-# Core
-torch>=2.0
-torchvision>=0.15
-ultralytics>=8.0
-opencv-python>=4.8
-Pillow>=10.0
-pyyaml>=6.0
-numpy>=1.24
+# --- Downstream NER: frozen vinai/phobert-base-v2 token-classification model --
+# CPU-only wheels are sufficient. For a smaller download, install torch first
+# from the CPU index:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.0,<3.0
+transformers>=4.40,<5.0
 
-# OCR
-paddlepaddle>=2.5
-paddleocr>=2.7
-vietocr>=0.3
+# --- Vietnamese word segmentation (optional but recommended) ------------------
+# Without it, NerExtractor falls back to whitespace splitting, which changes
+# tokenization and therefore the results.
+underthesea>=6.0
 
-# NLP / GCN
-transformers>=4.30
-sentence-transformers>=2.2
-torch-geometric>=2.0
-timm>=0.9
-networkx>=3.0
-scipy>=1.10
-
-# Server
-fastapi>=0.100
-uvicorn>=0.20
-python-multipart>=0.0.5
-
-# Utils
+# --- Drug-name normalization (DrugLookup, fuzzy matching at MIN_SCORE = 65) ---
 rapidfuzz>=3.0
+
+# --- Numerics and image handling used by the pipeline and benchmarks ----------
+numpy>=1.24,<3.0
+opencv-python-headless>=4.8
+
+# --- FastAPI AI service (see server/requirements.txt for the service image) ---
+fastapi>=0.100
+uvicorn[standard]>=0.20
+python-multipart>=0.0.9
+httpx>=0.25
+
+# =============================================================================
+# Deliberately NOT required
+# =============================================================================
+# Earlier iterations of this project explored detector- and graph-based designs.
+# Those paths were dropped before the ISBM 2026 experiments, and the packages
+# they needed (paddlepaddle, paddleocr, vietocr, ultralytics, torch-geometric,
+# sentence-transformers, timm, networkx, scipy, torchvision) are NOT imported
+# anywhere in this repository. They are omitted on purpose: installing them adds
+# several gigabytes and is a common source of setup failure.
+#
+# OCR in the published experiments is performed ON DEVICE by Google ML Kit
+# inside the Flutter client. There is no Python OCR engine in this pipeline.
+# =============================================================================

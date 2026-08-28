@@ -14,11 +14,11 @@ Requirements: Flutter 3.38.x or a compatible stable release, Android SDK 34 or
 
 ```bash
 flutter pub get
-flutter run --dart-define=API_BASE_URL=http://10.0.2.2:3001/api
+flutter run --dart-define=API_BASE_URL=http://10.0.2.2:3000/api
 ```
 
-For a physical device connected over USB, run `adb reverse tcp:3001 tcp:3001`
-and use `http://127.0.0.1:3001/api`. A non-secret configuration example is in
+For a physical device connected over USB, run `adb reverse tcp:3000 tcp:3000`
+and use `http://127.0.0.1:3000/api`. A non-secret configuration example is in
 `dart_defines.example.json`.
 
 ## Checks

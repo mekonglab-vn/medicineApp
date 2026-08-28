@@ -1,0 +1,153 @@
+{
+  "prescriptions": [
+    {
+      "id": 999,
+      "hospital": {
+        "ministry": "BỘ Y TẾ",
+        "name": "BVĐK TW CẦN THƠ",
+        "phone": "0292.382.0071"
+      },
+      "patient": {
+        "name": "LÊ VĂN TRẬN",
+        "age": 58,
+        "gender": "Nam",
+        "address": "ấp 3, Xã Vị thủy, Thành phố Cần Thơ",
+        "insurance_code": "BT2939321351869 - 93002"
+      },
+      "prescription_code": "25389434",
+      "diagnosis": "Z95.4: Sự có mặt của van tim thay thế khác; I10;E78;I25;J44;K21: Bệnh tăng huyết áp vô căn (nguyên phát); Rối loạn chuyển hóa lipoprotein và tình trạng tăng lipid máu khác; Bệnh tim thiếu máu cục bộ mạn; Các bệnh phổi tắc nghẽn mãn tính khác; Bệnh trào ngược dạ dày - thực quản; VAN CƠ HỌC",
+      "doctor": {
+        "name": "Lê Thị Kim Đài",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Amlodipine",
+          "brand_name": "Amlor",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Metformin",
+          "brand_name": "Glucophage XR",
+          "dosage": "750mg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 viên sau ăn tối"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "20mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Bisoprolol",
+          "brand_name": "Concor",
+          "dosage": "2.5mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Esomeprazole",
+          "brand_name": "Nexium",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên trước ăn sáng 30 phút"
+        },
+        {
+          "generic_name": "Celecoxib",
+          "brand_name": "Celebrex",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 15,
+          "instructions": "Ngày uống 1 viên sau ăn no (khi đau)"
+        },
+        {
+          "generic_name": "Eperisone",
+          "brand_name": "Myonal",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 lần, mỗi lần 1 viên sau ăn"
+        },
+        {
+          "generic_name": "Mecobalamin",
+          "brand_name": "Methycobal",
+          "dosage": "500mcg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 lần, mỗi lần 1 viên"
+        },
+        {
+          "generic_name": "Loratadine",
+          "brand_name": "Clarityne",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 10,
+          "instructions": "Ngày uống 1 viên buổi tối (khi ngứa mũi)"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Panadol",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 20,
+          "instructions": "Uống 1 viên khi đau đầu, cách mỗi 4-6 giờ"
+        },
+        {
+          "generic_name": "Ginkgo Biloba",
+          "brand_name": "Tanakan",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 lần, mỗi lần 1 viên"
+        },
+        {
+          "generic_name": "Calcium D3",
+          "brand_name": "Calcium Corbiere",
+          "dosage": "10ml",
+          "unit": "Ống",
+          "quantity": 30,
+          "instructions": "Sáng uống 1 ống sau ăn"
+        },
+        {
+          "generic_name": "Vitamin C",
+          "brand_name": "Upsa C",
+          "dosage": "1000mg",
+          "unit": "Viên sủi",
+          "quantity": 10,
+          "instructions": "Sáng uống 1 viên (hòa tan trong nước)"
+        },
+        {
+          "generic_name": "Magnesium B6",
+          "brand_name": "Magne-B6 Corbiere",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Trưa uống 1 viên sau ăn"
+        },
+        {
+          "generic_name": "Artificial Tears",
+          "brand_name": "Refresh",
+          "dosage": "15ml",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Nhỏ mắt khi mỏi, khô"
+        }
+      ],
+      "follow_up_date": "01/03/2026",
+      "prescription_date": "ngày 31 tháng 01 năm 2026",
+      "notes": "Bệnh nhân nhớ tái khám đúng hẹn và mang theo sổ khám bệnh.",
+      "lab_tests": "Sinh hóa máu (Glucose, HbA1c, Lipid máu, Chức năng gan thận), Điện tâm đồ.",
+      "barcode_bottom": "999999999999",
+      "duration_days": 30
+    }
+  ]
+}

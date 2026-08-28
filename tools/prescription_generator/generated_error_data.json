@@ -1,0 +1,6112 @@
+{
+  "prescriptions": [
+    {
+      "id": 1,
+      "patient": {
+        "name": "NGÔ NGỌC TÂM",
+        "age": 79,
+        "gender": "Nữ",
+        "address": "89 Đường Nguyễn Huệ, Hà Nội",
+        "insurance_code": "DN7086353550"
+      },
+      "prescription_code": "25322278",
+      "diagnosis": "E78.0: Tăng cholesterol máu thuần",
+      "doctor": {
+        "name": "Nguyễn Văn A",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Ezetimibe",
+          "brand_name": "Ezetrol",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        }
+      ],
+      "follow_up_date": "09/09/2026",
+      "prescription_date": "ngày 12 tháng 08 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000003",
+      "duration_days": 28
+    },
+    {
+      "id": 2,
+      "patient": {
+        "name": "HOÀNG ĐỨC CƯỜNG",
+        "age": 58,
+        "gender": "Nữ",
+        "address": "432 Đường Trần Hưng Đạo, Cần Thơ",
+        "insurance_code": "DN7908205404"
+      },
+      "prescription_code": "25424987",
+      "diagnosis": "G47.0: Rối loạn giấc ngủ",
+      "doctor": {
+        "name": "Hoàng Thị E",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Melatonin",
+          "brand_name": "Melatonin",
+          "dosage": "5mg",
+          "unit": "Ống",
+          "quantity": 7,
+          "instructions": "Uống 1 viên trước ngủ 30 phút"
+        },
+        {
+          "generic_name": "Rotunda",
+          "brand_name": "Rotunda",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 1-2 viên trước khi ngủ"
+        }
+      ],
+      "follow_up_date": "29/07/2026",
+      "prescription_date": "ngày 22 tháng 07 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000006",
+      "duration_days": 7,
+      "error_type": "wrong_unit",
+      "error_description": "Sai đơn vị tính nghiêm trọng: Viên -> Ống"
+    },
+    {
+      "id": 3,
+      "patient": {
+        "name": "HOÀNG MẠNH THẢO",
+        "age": 75,
+        "gender": "Nam",
+        "address": "845 Đường Trần Hưng Đạo, Hải Phòng",
+        "insurance_code": "DN9058110937"
+      },
+      "prescription_code": "25556566",
+      "diagnosis": "E78.0: Tăng cholesterol máu thuần; I10: Tăng huyết áp vô căn; J44.9: Bệnh phổi tắc nghẽn mạn tính (COPD); M17: Thoái hóa khớp gối",
+      "doctor": {
+        "name": "Trần Thị B",
+        "title": "ThS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Fenofibrate",
+          "brand_name": "Lipanthyl",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Rosuvastatin",
+          "brand_name": "Crestor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Ezetimibe",
+          "brand_name": "Ezetrol",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Losartan",
+          "brand_name": "Cozaar",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Perindopril",
+          "brand_name": "Coversyl",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng trước ăn"
+        },
+        {
+          "generic_name": "Telmisartan",
+          "brand_name": "Micardis",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Prednisolone",
+          "brand_name": "Prednisolone",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 4 viên buổi sáng sau ăn"
+        },
+        {
+          "generic_name": "Budesonide",
+          "brand_name": "Pulmicort",
+          "dosage": "0.5mg",
+          "unit": "Ống",
+          "quantity": 56,
+          "instructions": "Khí dung 1 ống x 2 lần/ngày"
+        },
+        {
+          "generic_name": "Tiotropium",
+          "brand_name": "Spiriva",
+          "dosage": "18mcg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Hít 1 viên mỗi sáng"
+        },
+        {
+          "generic_name": "Salbutamol_Inhaler",
+          "brand_name": "Ventolin Inhaler",
+          "dosage": "100mcg",
+          "unit": "Lọ",
+          "quantity": 2,
+          "instructions": "Xịt 2 nhát khi lên cơn khó thở"
+        },
+        {
+          "generic_name": "Diclofenac_Gel",
+          "brand_name": "Voltaren Emulgel",
+          "dosage": "20g",
+          "unit": "Tuýp",
+          "quantity": 2,
+          "instructions": "Bôi vùng đau 2 lần/ngày"
+        },
+        {
+          "generic_name": "Celecoxib",
+          "brand_name": "Celebrex",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn no"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Efferalgan",
+          "dosage": "500mg",
+          "unit": "Viên sủi",
+          "quantity": 28,
+          "instructions": "Hòa 1 viên vào nước, uống khi đau/sốt"
+        },
+        {
+          "generic_name": "Glucosamine",
+          "brand_name": "Viartril-S",
+          "dosage": "1500mg",
+          "unit": "Chai",
+          "quantity": 28,
+          "instructions": "Uống 1 gói trước ăn sáng"
+        }
+      ],
+      "follow_up_date": "25/10/2026",
+      "prescription_date": "ngày 27 tháng 09 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000010",
+      "duration_days": 28,
+      "error_type": "wrong_unit",
+      "error_description": "Sai đơn vị tính nghiêm trọng: Gói -> Chai"
+    },
+    {
+      "id": 4,
+      "patient": {
+        "name": "HUỲNH NGỌC HÙNG",
+        "age": 22,
+        "gender": "Nữ",
+        "address": "454 Đường Lê Lợi, Cần Thơ",
+        "insurance_code": "DN9049007509"
+      },
+      "prescription_code": "25936243",
+      "diagnosis": "E11: Đái tháo đường type 2",
+      "doctor": {
+        "name": "Phạm Minh D",
+        "title": "TS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Empagliflozin",
+          "brand_name": "Jardiance",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        }
+      ],
+      "follow_up_date": "16/09/2026",
+      "prescription_date": "ngày 19 tháng 08 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000013",
+      "duration_days": 28
+    },
+    {
+      "id": 5,
+      "patient": {
+        "name": "LÊ XUÂN EM",
+        "age": 25,
+        "gender": "Nữ",
+        "address": "282 Đường Võ Văn Kiệt, Hà Nội",
+        "insurance_code": "DN8499081630"
+      },
+      "prescription_code": "25437830",
+      "diagnosis": "M54.5: Đau thắt lưng",
+      "doctor": {
+        "name": "Vũ Văn F",
+        "title": "BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Eperisone",
+          "brand_name": "Myonal",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "quantity": 840,
+          "instructions": "Ngày uống 3 viên sau ăn"
+        },
+        {
+          "generic_name": "Vitamin B_Group",
+          "brand_name": "Neurobion",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn"
+        }
+      ],
+      "follow_up_date": "31/05/2026",
+      "prescription_date": "ngày 03 tháng 05 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000014",
+      "duration_days": 28,
+      "error_type": "wrong_quantity_x10",
+      "error_description": "Số lượng thuốc Myonal gấp 10 lần bình thường"
+    },
+    {
+      "id": 6,
+      "patient": {
+        "name": "HUỲNH MINH MAI",
+        "age": 18,
+        "gender": "Nữ",
+        "address": "285 Đường Nguyễn Huệ, Cần Thơ",
+        "insurance_code": "DN8145496951"
+      },
+      "prescription_code": "25146653",
+      "diagnosis": "J20.9: Viêm phế quản cấp; G47.0: Rối loạn giấc ngủ",
+      "doctor": {
+        "name": "Phạm Minh D",
+        "title": "TS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Amoxicillin_Clavulanate",
+          "brand_name": "Augmentin",
+          "dosage": "1g",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên (sáng, chiều) sau ăn"
+        },
+        {
+          "generic_name": "Cefuroxime",
+          "brand_name": "Zinnat",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 4,
+          "instructions": "Ngày uống 2 viên sau ăn (sáng, tối)"
+        },
+        {
+          "generic_name": "Salbutamol",
+          "brand_name": "Ventolin",
+          "dosage": "2mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên khi khó thở"
+        },
+        {
+          "generic_name": "Rotunda",
+          "brand_name": "Rotunda",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 1-2 viên trước khi ngủ"
+        },
+        {
+          "generic_name": "Melatonin",
+          "brand_name": "Melatonin",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên trước ngủ 30 phút"
+        },
+        {
+          "generic_name": "Magnesium_B6",
+          "brand_name": "Magne-B6",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        }
+      ],
+      "follow_up_date": "13/03/2026",
+      "prescription_date": "ngày 06 tháng 03 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000015",
+      "duration_days": 7,
+      "error_type": "missing_digit",
+      "error_description": "Số lượng thiếu chữ số: 14 -> 4"
+    },
+    {
+      "id": 7,
+      "patient": {
+        "name": "LÝ THANH TÂM",
+        "age": 5,
+        "gender": "Nữ",
+        "address": "478 Đường CMT8, Cần Thơ",
+        "insurance_code": "DN4854641556"
+      },
+      "prescription_code": "25320231",
+      "diagnosis": "J00: Viêm mũi họng cấp",
+      "doctor": {
+        "name": "Vũ Văn F",
+        "title": "BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Nước muối sinh lý",
+          "brand_name": "Nacl 0.9%",
+          "dosage": "10ml",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Nhỏ mắt mũi ngày 3 lần"
+        },
+        {
+          "generic_name": "Vitamin C",
+          "brand_name": "Upsa C",
+          "dosage": "1000mg",
+          "unit": "Viên sủi",
+          "quantity": 7,
+          "instructions": "Uống 1 viên buổi sáng"
+        }
+      ],
+      "follow_up_date": "17/08/2026",
+      "prescription_date": "ngày 10 tháng 08 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000016",
+      "duration_days": 7
+    },
+    {
+      "id": 8,
+      "patient": {
+        "name": "NGUYỄN XUÂN TÙNG",
+        "age": 54,
+        "gender": "Nữ",
+        "address": "396 Đường Nguyễn Huệ, Hà Nội",
+        "insurance_code": "DN4443408799"
+      },
+      "prescription_code": "25813658",
+      "diagnosis": "J20.9: Viêm phế quản cấp; M54.5: Đau thắt lưng",
+      "doctor": {
+        "name": "Lê Vũ C",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Cefuroxime",
+          "brand_name": "Zinnat",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên sau ăn (sáng, tối)"
+        },
+        {
+          "generic_name": "Amoxicillin_Clavulanate",
+          "brand_name": "Augmentin",
+          "dosage": "1g",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên (sáng, chiều) sau ăn"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Efferalgan",
+          "dosage": "500mg",
+          "unit": "Viên sủi",
+          "quantity": 70,
+          "instructions": "Hòa 1 viên vào nước, uống khi đau/sốt"
+        },
+        {
+          "generic_name": "Vitamin B_Group",
+          "brand_name": "Neurobion",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn"
+        }
+      ],
+      "follow_up_date": "09/07/2026",
+      "prescription_date": "ngày 11 tháng 06 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000017",
+      "duration_days": 28,
+      "error_type": "extra_zero",
+      "error_description": "Số lượng thừa số 0: 70"
+    },
+    {
+      "id": 9,
+      "patient": {
+        "name": "LÊ MINH GIANG",
+        "age": 16,
+        "gender": "Nam",
+        "address": "489 Đường CMT8, Đà Nẵng",
+        "insurance_code": "DN5534165413"
+      },
+      "prescription_code": "25504486",
+      "diagnosis": "L20.9: Viêm da cơ địa; J00: Viêm mũi họng cấp",
+      "doctor": {
+        "name": "Vũ Văn F",
+        "title": "BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Hydrocortisone_Cream",
+          "brand_name": "Eumovate",
+          "dosage": "15g",
+          "unit": "Tuýp",
+          "quantity": 2,
+          "instructions": "Bôi vùng da viêm 2 lần/ngày"
+        },
+        {
+          "generic_name": "Cetirizine",
+          "brand_name": "Zyrtec",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Fexofenadine",
+          "brand_name": "Telfast",
+          "dosage": "180mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Chlorpheniramine",
+          "brand_name": "Chlorpheniramine",
+          "dosage": "4mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Vitamin C",
+          "brand_name": "Upsa C",
+          "dosage": "1000mg",
+          "unit": "Viên sủi",
+          "quantity": 7,
+          "instructions": "Uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Ibuprofen",
+          "brand_name": "Brufen",
+          "dosage": "400mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên sau ăn khi đau"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Efferalgan",
+          "dosage": "500mg",
+          "unit": "Viên sủi",
+          "quantity": 700,
+          "instructions": "Hòa 1 viên vào nước, uống khi đau/sốt"
+        }
+      ],
+      "follow_up_date": "23/08/2026",
+      "prescription_date": "ngày 26 tháng 07 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000018",
+      "duration_days": 28,
+      "error_type": "wrong_quantity_x100",
+      "error_description": "Số lượng thuốc Efferalgan gấp 100 lần (lỗi nhập liệu)"
+    },
+    {
+      "id": 10,
+      "patient": {
+        "name": "PHẠM THỊ TÙNG",
+        "age": 78,
+        "gender": "Nữ",
+        "address": "930 Đường Nguyễn Huệ, Hà Nội",
+        "insurance_code": "DN9724280806"
+      },
+      "prescription_code": "25921699",
+      "diagnosis": "M17: Thoái hóa khớp gối; H04.1: Hội chứng khô mắt; E11: Đái tháo đường type 2; I10: Tăng huyết áp vô căn",
+      "doctor": {
+        "name": "Phạm Minh D",
+        "title": "TS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Efferalgan",
+          "dosage": "500mg",
+          "unit": "Viên sủi",
+          "quantity": 28,
+          "instructions": "Hòa 1 viên vào nước, uống khi đau/sốt"
+        },
+        {
+          "generic_name": "Diclofenac_Gel",
+          "brand_name": "Voltaren Emulgel",
+          "dosage": "20g",
+          "unit": "Tuýp",
+          "quantity": 1,
+          "instructions": "Bôi vùng đau 2 lần/ngày"
+        },
+        {
+          "generic_name": "Vitamin A",
+          "brand_name": "Vitamin A",
+          "dosage": "5000IU",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên"
+        },
+        {
+          "generic_name": "Omega-3",
+          "brand_name": "Omega-3",
+          "dosage": "1000mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn"
+        },
+        {
+          "generic_name": "Gliclazide",
+          "brand_name": "Diamicron MR",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên trước ăn sáng"
+        },
+        {
+          "generic_name": "Amlodipine",
+          "brand_name": "Amlor",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Perindopril",
+          "brand_name": "Coversyl",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng trước ăn"
+        },
+        {
+          "generic_name": "Telmisartan",
+          "brand_name": "Micardis",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Hydrochlorothiazide",
+          "brand_name": "Hypothiazid",
+          "dosage": "25mg",
+          "unit": "Viên",
+          "quantity": 280,
+          "instructions": "Ngày uống 1 viên sáng"
+        }
+      ],
+      "follow_up_date": "03/12/2026",
+      "prescription_date": "ngày 05 tháng 11 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000019",
+      "duration_days": 28,
+      "error_type": "extra_zero",
+      "error_description": "Số lượng thừa số 0: 280"
+    },
+    {
+      "id": 11,
+      "patient": {
+        "name": "NGUYỄN ĐỨC KHOA",
+        "age": 71,
+        "gender": "Nữ",
+        "address": "112 Đường Nguyễn Huệ, Hà Nội",
+        "insurance_code": "DN8772389297"
+      },
+      "prescription_code": "25579050",
+      "diagnosis": "I25.1: Bệnh tim thiếu máu cục bộ mạn; G47.0: Rối loạn giấc ngủ; M17: Thoái hóa khớp gối; H04.1: Hội chứng khô mắt",
+      "doctor": {
+        "name": "Nguyễn Văn A",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Clopidogrel",
+          "brand_name": "Plavix",
+          "dosage": "75mg",
+          "unit": "Lọ",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Magnesium_B6",
+          "brand_name": "Magne-B6",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Rotunda",
+          "brand_name": "Rotunda",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 1-2 viên trước khi ngủ"
+        },
+        {
+          "generic_name": "Melatonin",
+          "brand_name": "Melatonin",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên trước ngủ 30 phút"
+        },
+        {
+          "generic_name": "Celecoxib",
+          "brand_name": "Celebrex",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn no"
+        },
+        {
+          "generic_name": "Diclofenac_Gel",
+          "brand_name": "Voltaren Emulgel",
+          "dosage": "20g",
+          "unit": "Tuýp",
+          "quantity": 1,
+          "instructions": "Bôi vùng đau 2 lần/ngày"
+        },
+        {
+          "generic_name": "Artificial_Tears",
+          "brand_name": "Systane Ultra",
+          "dosage": "10ml",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Nhỏ mắt khi khô, 3-4 lần/ngày"
+        },
+        {
+          "generic_name": "Omega-3",
+          "brand_name": "Omega-3",
+          "dosage": "1000mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn"
+        }
+      ],
+      "follow_up_date": "27/01/2027",
+      "prescription_date": "ngày 30 tháng 12 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000020",
+      "duration_days": 28,
+      "error_type": "wrong_unit",
+      "error_description": "Sai đơn vị tính nghiêm trọng: Viên -> Lọ"
+    },
+    {
+      "id": 12,
+      "patient": {
+        "name": "HOÀNG ĐỨC LAN",
+        "age": 2,
+        "gender": "Nữ",
+        "address": "285 Đường CMT8, Hải Phòng",
+        "insurance_code": "DN4868211141"
+      },
+      "prescription_code": "25282160",
+      "diagnosis": "L20.9: Viêm da cơ địa",
+      "doctor": {
+        "name": "Phạm Minh D",
+        "title": "TS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Vitamin C",
+          "brand_name": "Upsa C",
+          "dosage": "1000mg",
+          "unit": "Viên sủi",
+          "quantity": 28,
+          "instructions": "Uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Cetirizine",
+          "brand_name": "Zyrtec",
+          "dosage": "10mg",
+          "unit": "Ống",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        }
+      ],
+      "follow_up_date": "29/11/2026",
+      "prescription_date": "ngày 01 tháng 11 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000022",
+      "duration_days": 28,
+      "error_type": "wrong_unit",
+      "error_description": "Sai đơn vị tính nghiêm trọng: Viên -> Ống"
+    },
+    {
+      "id": 13,
+      "patient": {
+        "name": "HOÀNG QUANG HẢI",
+        "age": 76,
+        "gender": "Nữ",
+        "address": "398 Đường Võ Văn Kiệt, Hải Phòng",
+        "insurance_code": "DN9389663413"
+      },
+      "prescription_code": "25916008",
+      "diagnosis": "I25.1: Bệnh tim thiếu máu cục bộ mạn; E11: Đái tháo đường type 2; E78.0: Tăng cholesterol máu thuần; I10: Tăng huyết áp vô căn",
+      "doctor": {
+        "name": "Phạm Minh D",
+        "title": "TS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Nitroglycerin",
+          "brand_name": "Nitromint",
+          "dosage": "2.6mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Clopidogrel",
+          "brand_name": "Plavix",
+          "dosage": "75mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Rosuvastatin",
+          "brand_name": "Crestor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Insulin_Glargine",
+          "brand_name": "Lantus",
+          "dosage": "100U/ml",
+          "unit": "Bút tiêm",
+          "quantity": 28,
+          "instructions": "Tiêm dưới da 10 đơn vị buổi tối"
+        },
+        {
+          "generic_name": "Empagliflozin",
+          "brand_name": "Jardiance",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Fenofibrate",
+          "brand_name": "Lipanthyl",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Perindopril",
+          "brand_name": "Coversyl",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 8,
+          "instructions": "Ngày uống 1 viên buổi sáng trước ăn"
+        },
+        {
+          "generic_name": "Telmisartan",
+          "brand_name": "Micardis",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Losartan",
+          "brand_name": "Cozaar",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Hydrochlorothiazide",
+          "brand_name": "Hypothiazid",
+          "dosage": "25mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        }
+      ],
+      "follow_up_date": "29/10/2026",
+      "prescription_date": "ngày 01 tháng 10 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000027",
+      "duration_days": 28,
+      "error_type": "missing_digit",
+      "error_description": "Số lượng thiếu chữ số: 28 -> 8"
+    },
+    {
+      "id": 14,
+      "patient": {
+        "name": "LÝ THỊ OANH",
+        "age": 20,
+        "gender": "Nữ",
+        "address": "604 Đường Trần Hưng Đạo, TP.HCM",
+        "insurance_code": "DN7682178205"
+      },
+      "prescription_code": "25233019",
+      "diagnosis": "M54.5: Đau thắt lưng",
+      "doctor": {
+        "name": "Lê Vũ C",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Efferalgan",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Hòa 1 viên vào nước, uống khi đau/sốt"
+        }
+      ],
+      "follow_up_date": "20/01/2026",
+      "prescription_date": "ngày 23 tháng 12 năm 2025",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000029",
+      "duration_days": 28,
+      "error_type": "wrong_unit",
+      "error_description": "Sai đơn vị tính nghiêm trọng: Viên sủi -> Viên"
+    },
+    {
+      "id": 15,
+      "patient": {
+        "name": "HỒ ĐỨC TÂM",
+        "age": 54,
+        "gender": "Nam",
+        "address": "894 Đường Võ Văn Kiệt, Đà Nẵng",
+        "insurance_code": "DN8327953319"
+      },
+      "prescription_code": "25546590",
+      "diagnosis": "K21.9: Bệnh trào ngược dạ dày-thực quản (GERD); L20.9: Viêm da cơ địa; I10: Tăng huyết áp vô căn",
+      "doctor": {
+        "name": "Hoàng Thị E",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Esomeprazole",
+          "brand_name": "Nexium",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Uống 1 viên trước ăn sáng 30 phút"
+        },
+        {
+          "generic_name": "Omeprazole",
+          "brand_name": "Losec",
+          "dosage": "20mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Uống 1 viên trước ăn sáng 30 phút"
+        },
+        {
+          "generic_name": "Gaviscon",
+          "brand_name": "Gaviscon",
+          "dosage": "10ml",
+          "unit": "Gói",
+          "quantity": 28,
+          "instructions": "Uống 1 gói sau ăn khi đau"
+        },
+        {
+          "generic_name": "Domperidone",
+          "brand_name": "Motilium",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 84,
+          "instructions": "Ngày uống 3 viên trước ăn"
+        },
+        {
+          "generic_name": "Pantoprazole",
+          "brand_name": "Pantoloc",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên trước ăn sáng"
+        },
+        {
+          "generic_name": "Fexofenadine",
+          "brand_name": "Telfast",
+          "dosage": "180mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Hydrocortisone_Cream",
+          "brand_name": "Eumovate",
+          "dosage": "15g",
+          "unit": "Tuýp",
+          "quantity": 2,
+          "instructions": "Bôi vùng da viêm 2 lần/ngày"
+        },
+        {
+          "generic_name": "Cetirizine",
+          "brand_name": "Zyrtec",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Amlodipine",
+          "brand_name": "Amlor",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Hydrochlorothiazide",
+          "brand_name": "Hypothiazid",
+          "dosage": "25mg",
+          "unit": "Chai",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Perindopril",
+          "brand_name": "Coversyl",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng trước ăn"
+        },
+        {
+          "generic_name": "Losartan",
+          "brand_name": "Cozaar",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Telmisartan",
+          "brand_name": "Micardis",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        }
+      ],
+      "follow_up_date": "22/10/2026",
+      "prescription_date": "ngày 24 tháng 09 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000030",
+      "duration_days": 28,
+      "error_type": "wrong_unit",
+      "error_description": "Sai đơn vị tính nghiêm trọng: Viên -> Chai"
+    },
+    {
+      "id": 16,
+      "patient": {
+        "name": "ĐỖ THỊ HẢI",
+        "age": 90,
+        "gender": "Nữ",
+        "address": "73 Đường Nguyễn Huệ, Hải Phòng",
+        "insurance_code": "DN6630543689"
+      },
+      "prescription_code": "25491349",
+      "diagnosis": "G47.0: Rối loạn giấc ngủ; I10: Tăng huyết áp vô căn; E78.0: Tăng cholesterol máu thuần",
+      "doctor": {
+        "name": "Phạm Minh D",
+        "title": "TS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Magnesium_B6",
+          "brand_name": "Magne-B6",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 4,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Rotunda",
+          "brand_name": "Rotunda",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 1-2 viên trước khi ngủ"
+        },
+        {
+          "generic_name": "Perindopril",
+          "brand_name": "Coversyl",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng trước ăn"
+        },
+        {
+          "generic_name": "Losartan",
+          "brand_name": "Cozaar",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Telmisartan",
+          "brand_name": "Micardis",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Hydrochlorothiazide",
+          "brand_name": "Hypothiazid",
+          "dosage": "25mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Amlodipine",
+          "brand_name": "Amlor",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Rosuvastatin",
+          "brand_name": "Crestor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Fenofibrate",
+          "brand_name": "Lipanthyl",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        }
+      ],
+      "follow_up_date": "03/04/2026",
+      "prescription_date": "ngày 06 tháng 03 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000033",
+      "duration_days": 28,
+      "error_type": "missing_digit",
+      "error_description": "Số lượng thiếu chữ số: 14 -> 4"
+    },
+    {
+      "id": 17,
+      "patient": {
+        "name": "PHAN KIM SƠN",
+        "age": 66,
+        "gender": "Nữ",
+        "address": "431 Đường Trần Hưng Đạo, Đà Nẵng",
+        "insurance_code": "DN4251728174"
+      },
+      "prescription_code": "25712861",
+      "diagnosis": "J44.9: Bệnh phổi tắc nghẽn mạn tính (COPD); M17: Thoái hóa khớp gối; E11: Đái tháo đường type 2; E78.0: Tăng cholesterol máu thuần; I10: Tăng huyết áp vô căn",
+      "doctor": {
+        "name": "Trần Thị B",
+        "title": "ThS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Prednisolone",
+          "brand_name": "Prednisolone",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 4 viên buổi sáng sau ăn"
+        },
+        {
+          "generic_name": "Salbutamol_Inhaler",
+          "brand_name": "Ventolin Inhaler",
+          "dosage": "100mcg",
+          "unit": "Lọ",
+          "quantity": 2,
+          "instructions": "Xịt 2 nhát khi lên cơn khó thở"
+        },
+        {
+          "generic_name": "Budesonide",
+          "brand_name": "Pulmicort",
+          "dosage": "0.5mg",
+          "unit": "Ống",
+          "quantity": 56,
+          "instructions": "Khí dung 1 ống x 2 lần/ngày"
+        },
+        {
+          "generic_name": "Azithromycin",
+          "brand_name": "Zithromax",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên (uống 3 ngày)"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Panadol",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Uống 1 viên khi đau/sốt, cách mỗi 4-6h"
+        },
+        {
+          "generic_name": "Diclofenac_Gel",
+          "brand_name": "Voltaren Emulgel",
+          "dosage": "20g",
+          "unit": "Tuýp",
+          "quantity": 2,
+          "instructions": "Bôi vùng đau 2 lần/ngày"
+        },
+        {
+          "generic_name": "Glucosamine",
+          "brand_name": "Viartril-S",
+          "dosage": "1500mg",
+          "unit": "Gói",
+          "quantity": 28,
+          "instructions": "Uống 1 gói trước ăn sáng"
+        },
+        {
+          "generic_name": "Celecoxib",
+          "brand_name": "Celebrex",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn no"
+        },
+        {
+          "generic_name": "Metformin",
+          "brand_name": "Glucophage XR",
+          "dosage": "750mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 1-2 viên sau ăn tối"
+        },
+        {
+          "generic_name": "Insulin_Glargine",
+          "brand_name": "Lantus",
+          "dosage": "100U/ml",
+          "unit": "Bút tiêm",
+          "quantity": 28,
+          "instructions": "Tiêm dưới da 10 đơn vị buổi tối"
+        },
+        {
+          "generic_name": "Fenofibrate",
+          "brand_name": "Lipanthyl",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Rosuvastatin",
+          "brand_name": "Crestor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Amlodipine",
+          "brand_name": "Amlor",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Losartan",
+          "brand_name": "Cozaar",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Perindopril",
+          "brand_name": "Coversyl",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng trước ăn"
+        }
+      ],
+      "follow_up_date": "11/11/2026",
+      "prescription_date": "ngày 14 tháng 10 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000034",
+      "duration_days": 28
+    },
+    {
+      "id": 18,
+      "patient": {
+        "name": "LÝ QUANG DUNG",
+        "age": 26,
+        "gender": "Nữ",
+        "address": "408 Đường 3/2, TP.HCM",
+        "insurance_code": "DN9157938461"
+      },
+      "prescription_code": "25807102",
+      "diagnosis": "J00: Viêm mũi họng cấp; K58.0: Hội chứng ruột kích thích (IBS); K73.9: Viêm gan mạn tính",
+      "doctor": {
+        "name": "Nguyễn Văn A",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Nước muối sinh lý",
+          "brand_name": "Nacl 0.9%",
+          "dosage": "10ml",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Nhỏ mắt mũi ngày 3 lần"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Efferalgan",
+          "dosage": "500mg",
+          "unit": "Viên sủi",
+          "quantity": 7,
+          "instructions": "Hòa 1 viên vào nước, uống khi đau/sốt"
+        },
+        {
+          "generic_name": "Vitamin C",
+          "brand_name": "Upsa C",
+          "dosage": "1000mg",
+          "unit": "Viên sủi",
+          "quantity": 7,
+          "instructions": "Uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Chlorpheniramine",
+          "brand_name": "Chlorpheniramine",
+          "dosage": "4mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Ibuprofen",
+          "brand_name": "Brufen",
+          "dosage": "400mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên sau ăn khi đau"
+        },
+        {
+          "generic_name": "Mebeverine",
+          "brand_name": "Duspatalin",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên trước ăn"
+        },
+        {
+          "generic_name": "Trimebutine",
+          "brand_name": "Debridat",
+          "dosage": "100mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên trước ăn"
+        },
+        {
+          "generic_name": "Probiotics",
+          "brand_name": "Enterogermina",
+          "dosage": "5ml",
+          "unit": "Ống",
+          "quantity": 28,
+          "instructions": "Uống 2 ống/ngày"
+        },
+        {
+          "generic_name": "Vitamin B_Group",
+          "brand_name": "Neurobion",
+          "dosage": "Tab",
+          "unit": "Bịch",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn"
+        },
+        {
+          "generic_name": "L-Ornithine",
+          "brand_name": "Barcavir",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên sau ăn"
+        },
+        {
+          "generic_name": "Silymarin",
+          "brand_name": "Silygamma",
+          "dosage": "140mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên sau ăn"
+        }
+      ],
+      "follow_up_date": "16/01/2027",
+      "prescription_date": "ngày 19 tháng 12 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000035",
+      "duration_days": 28,
+      "error_type": "wrong_unit",
+      "error_description": "Sai đơn vị tính nghiêm trọng: Viên -> Bịch"
+    },
+    {
+      "id": 19,
+      "patient": {
+        "name": "HỒ NGỌC TÂM",
+        "age": 80,
+        "gender": "Nữ",
+        "address": "861 Đường 3/2, Đà Nẵng",
+        "insurance_code": "DN4817484316"
+      },
+      "prescription_code": "25852482",
+      "diagnosis": "E11: Đái tháo đường type 2; E78.0: Tăng cholesterol máu thuần; I10: Tăng huyết áp vô căn",
+      "doctor": {
+        "name": "Vũ Văn F",
+        "title": "BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Empagliflozin",
+          "brand_name": "Jardiance",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Insulin_Glargine",
+          "brand_name": "Lantus",
+          "dosage": "100U/ml",
+          "unit": "Bút tiêm",
+          "quantity": 28,
+          "instructions": "Tiêm dưới da 10 đơn vị buổi tối"
+        },
+        {
+          "generic_name": "Metformin",
+          "brand_name": "Glucophage XR",
+          "dosage": "750mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 1-2 viên sau ăn tối"
+        },
+        {
+          "generic_name": "Sitagliptin",
+          "brand_name": "Januvia",
+          "dosage": "100mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Gliclazide",
+          "brand_name": "Diamicron MR",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên trước ăn sáng"
+        },
+        {
+          "generic_name": "Rosuvastatin",
+          "brand_name": "Crestor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Ezetimibe",
+          "brand_name": "Ezetrol",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Telmisartan",
+          "brand_name": "Micardis",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 8,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Amlodipine",
+          "brand_name": "Amlor",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Hydrochlorothiazide",
+          "brand_name": "Hypothiazid",
+          "dosage": "25mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Losartan",
+          "brand_name": "Cozaar",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        }
+      ],
+      "follow_up_date": "11/12/2026",
+      "prescription_date": "ngày 13 tháng 11 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000036",
+      "duration_days": 28,
+      "error_type": "missing_digit",
+      "error_description": "Số lượng thiếu chữ số: 28 -> 8"
+    },
+    {
+      "id": 20,
+      "patient": {
+        "name": "VÕ THU TRANG",
+        "age": 8,
+        "gender": "Nam",
+        "address": "516 Đường Võ Văn Kiệt, Cần Thơ",
+        "insurance_code": "DN9003166500"
+      },
+      "prescription_code": "25586848",
+      "diagnosis": "H10.1: Viêm kết mạc cấp",
+      "doctor": {
+        "name": "Lê Vũ C",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Nước muối sinh lý",
+          "brand_name": "Nacl 0.9%",
+          "dosage": "10ml",
+          "unit": "Lọ",
+          "quantity": 200,
+          "instructions": "Nhỏ mắt mũi ngày 3 lần"
+        },
+        {
+          "generic_name": "Vitamin C",
+          "brand_name": "Upsa C",
+          "dosage": "1000mg",
+          "unit": "Viên sủi",
+          "quantity": 7,
+          "instructions": "Uống 1 viên buổi sáng"
+        }
+      ],
+      "follow_up_date": "01/02/2026",
+      "prescription_date": "ngày 25 tháng 01 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000037",
+      "duration_days": 7,
+      "error_type": "wrong_quantity_x100",
+      "error_description": "Số lượng thuốc Nacl 0.9% gấp 100 lần (lỗi nhập liệu)"
+    },
+    {
+      "id": 21,
+      "patient": {
+        "name": "VÕ THANH SƠN",
+        "age": 93,
+        "gender": "Nữ",
+        "address": "443 Đường Trần Hưng Đạo, TP.HCM",
+        "insurance_code": "DN9385230845"
+      },
+      "prescription_code": "25374444",
+      "diagnosis": "J44.9: Bệnh phổi tắc nghẽn mạn tính (COPD); I25.1: Bệnh tim thiếu máu cục bộ mạn; I63.9: Di chứng nhồi máu não; H04.1: Hội chứng khô mắt",
+      "doctor": {
+        "name": "Hoàng Thị E",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Prednisolone",
+          "brand_name": "Prednisolone",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 4 viên buổi sáng sau ăn"
+        },
+        {
+          "generic_name": "Tiotropium",
+          "brand_name": "Spiriva",
+          "dosage": "18mcg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Hít 1 viên mỗi sáng"
+        },
+        {
+          "generic_name": "Budesonide",
+          "brand_name": "Pulmicort",
+          "dosage": "0.5mg",
+          "unit": "Ống",
+          "quantity": 56,
+          "instructions": "Khí dung 1 ống x 2 lần/ngày"
+        },
+        {
+          "generic_name": "Azithromycin",
+          "brand_name": "Zithromax",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên (uống 3 ngày)"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Nitroglycerin",
+          "brand_name": "Nitromint",
+          "dosage": "2.6mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Aspirin",
+          "brand_name": "Aspirin Cardio",
+          "dosage": "81mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Clopidogrel",
+          "brand_name": "Plavix",
+          "dosage": "75mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Citicoline",
+          "brand_name": "Somazina",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Piracetam",
+          "brand_name": "Nootropil",
+          "dosage": "800mg",
+          "unit": "Viên",
+          "quantity": 84,
+          "instructions": "Ngày uống 3 viên sau ăn"
+        },
+        {
+          "generic_name": "Vitamin A",
+          "brand_name": "Vitamin A",
+          "dosage": "5000IU",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên"
+        },
+        {
+          "generic_name": "Artificial_Tears",
+          "brand_name": "Systane Ultra",
+          "dosage": "10ml",
+          "unit": "Lọ",
+          "quantity": 2,
+          "instructions": "Nhỏ mắt khi khô, 3-4 lần/ngày"
+        }
+      ],
+      "follow_up_date": "02/06/2026",
+      "prescription_date": "ngày 05 tháng 05 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "CT-Scanner, MRI, Huyết đồ",
+      "barcode_bottom": "000000000038",
+      "duration_days": 28
+    },
+    {
+      "id": 22,
+      "patient": {
+        "name": "VŨ HỮU MAI",
+        "age": 47,
+        "gender": "Nữ",
+        "address": "663 Đường Trần Hưng Đạo, Cần Thơ",
+        "insurance_code": "DN4854894657"
+      },
+      "prescription_code": "25976961",
+      "diagnosis": "E78.0: Tăng cholesterol máu thuần; E11: Đái tháo đường type 2; I10: Tăng huyết áp vô căn",
+      "doctor": {
+        "name": "Nguyễn Văn A",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Ezetimibe",
+          "brand_name": "Ezetrol",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Insulin_Glargine",
+          "brand_name": "Lantus",
+          "dosage": "100U/ml",
+          "unit": "Bút tiêm",
+          "quantity": 28,
+          "instructions": "Tiêm dưới da 10 đơn vị buổi tối"
+        },
+        {
+          "generic_name": "Sitagliptin",
+          "brand_name": "Januvia",
+          "dosage": "100mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Empagliflozin",
+          "brand_name": "Jardiance",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 280,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Gliclazide",
+          "brand_name": "Diamicron MR",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên trước ăn sáng"
+        },
+        {
+          "generic_name": "Metformin",
+          "brand_name": "Glucophage XR",
+          "dosage": "750mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 1-2 viên sau ăn tối"
+        },
+        {
+          "generic_name": "Perindopril",
+          "brand_name": "Coversyl",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng trước ăn"
+        },
+        {
+          "generic_name": "Hydrochlorothiazide",
+          "brand_name": "Hypothiazid",
+          "dosage": "25mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Telmisartan",
+          "brand_name": "Micardis",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Losartan",
+          "brand_name": "Cozaar",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        }
+      ],
+      "follow_up_date": "15/10/2026",
+      "prescription_date": "ngày 17 tháng 09 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000039",
+      "duration_days": 28,
+      "error_type": "wrong_quantity_x10",
+      "error_description": "Số lượng thuốc Jardiance gấp 10 lần bình thường"
+    },
+    {
+      "id": 23,
+      "patient": {
+        "name": "LÊ MẠNH HẢI",
+        "age": 26,
+        "gender": "Nữ",
+        "address": "724 Đường Nguyễn Huệ, Hải Phòng",
+        "insurance_code": "DN9441129465"
+      },
+      "prescription_code": "25274416",
+      "diagnosis": "K58.0: Hội chứng ruột kích thích (IBS); K73.9: Viêm gan mạn tính; E11: Đái tháo đường type 2",
+      "doctor": {
+        "name": "Hoàng Thị E",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Trimebutine",
+          "brand_name": "Debridat",
+          "dosage": "100mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên trước ăn"
+        },
+        {
+          "generic_name": "Mebeverine",
+          "brand_name": "Duspatalin",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên trước ăn"
+        },
+        {
+          "generic_name": "Probiotics",
+          "brand_name": "Enterogermina",
+          "dosage": "5ml",
+          "unit": "Ống",
+          "quantity": 28,
+          "instructions": "Uống 2 ống/ngày"
+        },
+        {
+          "generic_name": "Amitriptyline_LowDose",
+          "brand_name": "Amitriptyline",
+          "dosage": "25mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 1/2 viên tối"
+        },
+        {
+          "generic_name": "Vitamin B_Group",
+          "brand_name": "Neurobion",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn"
+        },
+        {
+          "generic_name": "L-Ornithine",
+          "brand_name": "Barcavir",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên sau ăn"
+        },
+        {
+          "generic_name": "Sitagliptin",
+          "brand_name": "Januvia",
+          "dosage": "100mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Insulin_Glargine",
+          "brand_name": "Lantus",
+          "dosage": "100U/ml",
+          "unit": "Bút tiêm",
+          "quantity": 28,
+          "instructions": "Tiêm dưới da 10 đơn vị buổi tối"
+        },
+        {
+          "generic_name": "Gliclazide",
+          "brand_name": "Diamicron MR",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 8,
+          "instructions": "Ngày uống 1 viên trước ăn sáng"
+        },
+        {
+          "generic_name": "Empagliflozin",
+          "brand_name": "Jardiance",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Metformin",
+          "brand_name": "Glucophage XR",
+          "dosage": "750mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 1-2 viên sau ăn tối"
+        }
+      ],
+      "follow_up_date": "13/10/2026",
+      "prescription_date": "ngày 15 tháng 09 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000041",
+      "duration_days": 28,
+      "error_type": "missing_digit",
+      "error_description": "Số lượng thiếu chữ số: 28 -> 8"
+    },
+    {
+      "id": 24,
+      "patient": {
+        "name": "LÊ THỊ OANH",
+        "age": 6,
+        "gender": "Nữ",
+        "address": "781 Đường Trần Hưng Đạo, Hải Phòng",
+        "insurance_code": "DN8388363260"
+      },
+      "prescription_code": "25206754",
+      "diagnosis": "J00: Viêm mũi họng cấp",
+      "doctor": {
+        "name": "Trần Thị B",
+        "title": "ThS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Nước muối sinh lý",
+          "brand_name": "Nacl 0.9%",
+          "dosage": "10ml",
+          "unit": "Lọ",
+          "quantity": 2,
+          "instructions": "Nhỏ mắt mũi ngày 3 lần"
+        },
+        {
+          "generic_name": "Ibuprofen",
+          "brand_name": "Brufen",
+          "dosage": "400mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên sau ăn khi đau"
+        },
+        {
+          "generic_name": "Vitamin C",
+          "brand_name": "Upsa C",
+          "dosage": "1000mg",
+          "unit": "Viên sủi",
+          "quantity": 7,
+          "instructions": "Uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Chlorpheniramine",
+          "brand_name": "Chlorpheniramine",
+          "dosage": "4mg",
+          "unit": "Viên",
+          "quantity": 70,
+          "instructions": "Ngày uống 1 viên tối"
+        }
+      ],
+      "follow_up_date": "20/02/2026",
+      "prescription_date": "ngày 13 tháng 02 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000042",
+      "duration_days": 7,
+      "error_type": "extra_zero",
+      "error_description": "Số lượng thừa số 0: 70"
+    },
+    {
+      "id": 25,
+      "patient": {
+        "name": "BÙI KIM HẢI",
+        "age": 15,
+        "gender": "Nữ",
+        "address": "273 Đường CMT8, TP.HCM",
+        "insurance_code": "DN7717299671"
+      },
+      "prescription_code": "25568111",
+      "diagnosis": "G40.9: Bệnh động kinh",
+      "doctor": {
+        "name": "Nguyễn Văn A",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Levetiracetam",
+          "brand_name": "Keppra",
+          "dosage": "500mg",
+          "unit": "Chai",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Valproic_Acid",
+          "brand_name": "Depakin",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên sau ăn"
+        }
+      ],
+      "follow_up_date": "16/09/2026",
+      "prescription_date": "ngày 19 tháng 08 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000044",
+      "duration_days": 28,
+      "error_type": "wrong_unit",
+      "error_description": "Sai đơn vị tính nghiêm trọng: Viên -> Chai"
+    },
+    {
+      "id": 26,
+      "patient": {
+        "name": "PHẠM THU GIANG",
+        "age": 88,
+        "gender": "Nữ",
+        "address": "561 Đường Trần Hưng Đạo, Đà Nẵng",
+        "insurance_code": "DN6936602713"
+      },
+      "prescription_code": "25675521",
+      "diagnosis": "G47.0: Rối loạn giấc ngủ; E78.0: Tăng cholesterol máu thuần; E11: Đái tháo đường type 2",
+      "doctor": {
+        "name": "Phạm Minh D",
+        "title": "TS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Melatonin",
+          "brand_name": "Melatonin",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên trước ngủ 30 phút"
+        },
+        {
+          "generic_name": "Rotunda",
+          "brand_name": "Rotunda",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 1-2 viên trước khi ngủ"
+        },
+        {
+          "generic_name": "Fenofibrate",
+          "brand_name": "Lipanthyl",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 8,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Rosuvastatin",
+          "brand_name": "Crestor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Sitagliptin",
+          "brand_name": "Januvia",
+          "dosage": "100mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Insulin_Glargine",
+          "brand_name": "Lantus",
+          "dosage": "100U/ml",
+          "unit": "Bút tiêm",
+          "quantity": 28,
+          "instructions": "Tiêm dưới da 10 đơn vị buổi tối"
+        },
+        {
+          "generic_name": "Gliclazide",
+          "brand_name": "Diamicron MR",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên trước ăn sáng"
+        },
+        {
+          "generic_name": "Empagliflozin",
+          "brand_name": "Jardiance",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        }
+      ],
+      "follow_up_date": "10/08/2026",
+      "prescription_date": "ngày 13 tháng 07 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000047",
+      "duration_days": 28,
+      "error_type": "missing_digit",
+      "error_description": "Số lượng thiếu chữ số: 28 -> 8"
+    },
+    {
+      "id": 27,
+      "patient": {
+        "name": "DƯƠNG MINH MAI",
+        "age": 94,
+        "gender": "Nam",
+        "address": "612 Đường Trần Hưng Đạo, TP.HCM",
+        "insurance_code": "DN5519909346"
+      },
+      "prescription_code": "25970856",
+      "diagnosis": "G47.0: Rối loạn giấc ngủ",
+      "doctor": {
+        "name": "Lê Vũ C",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Melatonin",
+          "brand_name": "Melatonin",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên trước ngủ 30 phút"
+        },
+        {
+          "generic_name": "Rotunda",
+          "brand_name": "Rotunda",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 140,
+          "instructions": "Ngày uống 1-2 viên trước khi ngủ"
+        }
+      ],
+      "follow_up_date": "07/11/2026",
+      "prescription_date": "ngày 31 tháng 10 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000048",
+      "duration_days": 7,
+      "error_type": "extra_zero",
+      "error_description": "Số lượng thừa số 0: 140"
+    },
+    {
+      "id": 28,
+      "patient": {
+        "name": "ĐỖ NGỌC TÂM",
+        "age": 14,
+        "gender": "Nam",
+        "address": "431 Đường Lê Lợi, Hà Nội",
+        "insurance_code": "DN9611289219"
+      },
+      "prescription_code": "25347552",
+      "diagnosis": "G40.9: Bệnh động kinh",
+      "doctor": {
+        "name": "Phạm Minh D",
+        "title": "TS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Levetiracetam",
+          "brand_name": "Keppra",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 6,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Carbamazepine",
+          "brand_name": "Tegretol",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên"
+        },
+        {
+          "generic_name": "Valproic_Acid",
+          "brand_name": "Depakin",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên sau ăn"
+        }
+      ],
+      "follow_up_date": "08/06/2026",
+      "prescription_date": "ngày 11 tháng 05 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000051",
+      "duration_days": 28,
+      "error_type": "missing_digit",
+      "error_description": "Số lượng thiếu chữ số: 56 -> 6"
+    },
+    {
+      "id": 29,
+      "patient": {
+        "name": "HOÀNG THU MAI",
+        "age": 78,
+        "gender": "Nam",
+        "address": "258 Đường Trần Hưng Đạo, Đà Nẵng",
+        "insurance_code": "DN8279790514"
+      },
+      "prescription_code": "25760239",
+      "diagnosis": "H04.1: Hội chứng khô mắt; E78.0: Tăng cholesterol máu thuần; I63.9: Di chứng nhồi máu não",
+      "doctor": {
+        "name": "Lê Vũ C",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Vitamin A",
+          "brand_name": "Vitamin A",
+          "dosage": "5000IU",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên"
+        },
+        {
+          "generic_name": "Omega-3",
+          "brand_name": "Omega-3",
+          "dosage": "1000mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn"
+        },
+        {
+          "generic_name": "Artificial_Tears",
+          "brand_name": "Systane Ultra",
+          "dosage": "10ml",
+          "unit": "Lọ",
+          "quantity": 2,
+          "instructions": "Nhỏ mắt khi khô, 3-4 lần/ngày"
+        },
+        {
+          "generic_name": "Rosuvastatin",
+          "brand_name": "Crestor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Fenofibrate",
+          "brand_name": "Lipanthyl",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Ezetimibe",
+          "brand_name": "Ezetrol",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Citicoline",
+          "brand_name": "Somazina",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Clopidogrel",
+          "brand_name": "Plavix",
+          "dosage": "75mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Piracetam",
+          "brand_name": "Nootropil",
+          "dosage": "800mg",
+          "unit": "Bịch",
+          "quantity": 84,
+          "instructions": "Ngày uống 3 viên sau ăn"
+        }
+      ],
+      "follow_up_date": "05/08/2026",
+      "prescription_date": "ngày 08 tháng 07 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "CT-Scanner, MRI, Huyết đồ",
+      "barcode_bottom": "000000000055",
+      "duration_days": 28,
+      "error_type": "wrong_unit",
+      "error_description": "Sai đơn vị tính nghiêm trọng: Viên -> Bịch"
+    },
+    {
+      "id": 30,
+      "patient": {
+        "name": "NGÔ MINH MAI",
+        "age": 90,
+        "gender": "Nam",
+        "address": "744 Đường CMT8, Đà Nẵng",
+        "insurance_code": "DN5155343415"
+      },
+      "prescription_code": "25373418",
+      "diagnosis": "J44.9: Bệnh phổi tắc nghẽn mạn tính (COPD); I10: Tăng huyết áp vô căn; E11: Đái tháo đường type 2; G47.0: Rối loạn giấc ngủ; E78.0: Tăng cholesterol máu thuần; I25.1: Bệnh tim thiếu máu cục bộ mạn",
+      "doctor": {
+        "name": "Vũ Văn F",
+        "title": "BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Salbutamol_Inhaler",
+          "brand_name": "Ventolin Inhaler",
+          "dosage": "100mcg",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Xịt 2 nhát khi lên cơn khó thở"
+        },
+        {
+          "generic_name": "Azithromycin",
+          "brand_name": "Zithromax",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên (uống 3 ngày)"
+        },
+        {
+          "generic_name": "Budesonide",
+          "brand_name": "Pulmicort",
+          "dosage": "0.5mg",
+          "unit": "Ống",
+          "quantity": 56,
+          "instructions": "Khí dung 1 ống x 2 lần/ngày"
+        },
+        {
+          "generic_name": "Tiotropium",
+          "brand_name": "Spiriva",
+          "dosage": "18mcg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Hít 1 viên mỗi sáng"
+        },
+        {
+          "generic_name": "Prednisolone",
+          "brand_name": "Prednisolone",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 4 viên buổi sáng sau ăn"
+        },
+        {
+          "generic_name": "Hydrochlorothiazide",
+          "brand_name": "Hypothiazid",
+          "dosage": "25mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Perindopril",
+          "brand_name": "Coversyl",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng trước ăn"
+        },
+        {
+          "generic_name": "Gliclazide",
+          "brand_name": "Diamicron MR",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên trước ăn sáng"
+        },
+        {
+          "generic_name": "Metformin",
+          "brand_name": "Glucophage XR",
+          "dosage": "750mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 1-2 viên sau ăn tối"
+        },
+        {
+          "generic_name": "Insulin_Glargine",
+          "brand_name": "Lantus",
+          "dosage": "100U/ml",
+          "unit": "Bút tiêm",
+          "quantity": 28,
+          "instructions": "Tiêm dưới da 10 đơn vị buổi tối"
+        },
+        {
+          "generic_name": "Empagliflozin",
+          "brand_name": "Jardiance",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Melatonin",
+          "brand_name": "Melatonin",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên trước ngủ 30 phút"
+        },
+        {
+          "generic_name": "Magnesium_B6",
+          "brand_name": "Magne-B6",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Ezetimibe",
+          "brand_name": "Ezetrol",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Rosuvastatin",
+          "brand_name": "Crestor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Nitroglycerin",
+          "brand_name": "Nitromint",
+          "dosage": "2.6mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Bisoprolol",
+          "brand_name": "Concor",
+          "dosage": "2.5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Clopidogrel",
+          "brand_name": "Plavix",
+          "dosage": "75mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        }
+      ],
+      "follow_up_date": "29/04/2026",
+      "prescription_date": "ngày 01 tháng 04 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000056",
+      "duration_days": 28
+    },
+    {
+      "id": 31,
+      "patient": {
+        "name": "ĐẶNG VĂN MAI",
+        "age": 10,
+        "gender": "Nam",
+        "address": "1 Đường Nguyễn Huệ, Đà Nẵng",
+        "insurance_code": "DN6491327301"
+      },
+      "prescription_code": "25805394",
+      "diagnosis": "J20.9: Viêm phế quản cấp; H10.1: Viêm kết mạc cấp",
+      "doctor": {
+        "name": "Hoàng Thị E",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Efferalgan",
+          "dosage": "500mg",
+          "unit": "Viên sủi",
+          "quantity": 7,
+          "instructions": "Hòa 1 viên vào nước, uống khi đau/sốt"
+        },
+        {
+          "generic_name": "Acetylcysteine",
+          "brand_name": "Exomuc",
+          "dosage": "200mg",
+          "unit": "Gói",
+          "quantity": 7,
+          "instructions": "Hòa tan uống, ngày 2 gói"
+        },
+        {
+          "generic_name": "Cefuroxime",
+          "brand_name": "Zinnat",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên sau ăn (sáng, tối)"
+        },
+        {
+          "generic_name": "Amoxicillin_Clavulanate",
+          "brand_name": "Klamentin",
+          "dosage": "875/125mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên sau ăn"
+        },
+        {
+          "generic_name": "Salbutamol",
+          "brand_name": "Ventolin",
+          "dosage": "2mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên khi khó thở"
+        },
+        {
+          "generic_name": "Nước muối sinh lý",
+          "brand_name": "Nacl 0.9%",
+          "dosage": "10ml",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Nhỏ mắt mũi ngày 3 lần"
+        },
+        {
+          "generic_name": "Vitamin C",
+          "brand_name": "Upsa C",
+          "dosage": "1000mg",
+          "unit": "Viên sủi",
+          "quantity": 7,
+          "instructions": "Uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Tobramycin_Drop",
+          "brand_name": "Tobrex",
+          "dosage": "0.3%",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Nhỏ mắt ngày 3 lần"
+        }
+      ],
+      "follow_up_date": "18/03/2026",
+      "prescription_date": "ngày 11 tháng 03 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000057",
+      "duration_days": 7
+    },
+    {
+      "id": 32,
+      "patient": {
+        "name": "ĐẶNG ĐỨC EM",
+        "age": 88,
+        "gender": "Nữ",
+        "address": "62 Đường 3/2, TP.HCM",
+        "insurance_code": "DN9453765567"
+      },
+      "prescription_code": "25199237",
+      "diagnosis": "I63.9: Di chứng nhồi máu não; M17: Thoái hóa khớp gối; I25.1: Bệnh tim thiếu máu cục bộ mạn; E11: Đái tháo đường type 2; I10: Tăng huyết áp vô căn",
+      "doctor": {
+        "name": "Hoàng Thị E",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Aspirin",
+          "brand_name": "Aspirin Cardio",
+          "dosage": "81mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Piracetam",
+          "brand_name": "Nootropil",
+          "dosage": "800mg",
+          "unit": "Viên",
+          "quantity": 840,
+          "instructions": "Ngày uống 3 viên sau ăn"
+        },
+        {
+          "generic_name": "Citicoline",
+          "brand_name": "Somazina",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Clopidogrel",
+          "brand_name": "Plavix",
+          "dosage": "75mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Panadol",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Uống 1 viên khi đau/sốt, cách mỗi 4-6h"
+        },
+        {
+          "generic_name": "Diclofenac_Gel",
+          "brand_name": "Voltaren Emulgel",
+          "dosage": "20g",
+          "unit": "Tuýp",
+          "quantity": 1,
+          "instructions": "Bôi vùng đau 2 lần/ngày"
+        },
+        {
+          "generic_name": "Celecoxib",
+          "brand_name": "Celebrex",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn no"
+        },
+        {
+          "generic_name": "Rosuvastatin",
+          "brand_name": "Crestor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Sitagliptin",
+          "brand_name": "Januvia",
+          "dosage": "100mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Telmisartan",
+          "brand_name": "Micardis",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Hydrochlorothiazide",
+          "brand_name": "Hypothiazid",
+          "dosage": "25mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Amlodipine",
+          "brand_name": "Amlor",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Perindopril",
+          "brand_name": "Coversyl",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng trước ăn"
+        }
+      ],
+      "follow_up_date": "12/01/2026",
+      "prescription_date": "ngày 15 tháng 12 năm 2025",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "CT-Scanner, MRI, Huyết đồ",
+      "barcode_bottom": "000000000059",
+      "duration_days": 28,
+      "error_type": "wrong_quantity_x10",
+      "error_description": "Số lượng thuốc Nootropil gấp 10 lần bình thường"
+    },
+    {
+      "id": 33,
+      "patient": {
+        "name": "ĐỖ XUÂN PHÚC",
+        "age": 93,
+        "gender": "Nam",
+        "address": "758 Đường CMT8, TP.HCM",
+        "insurance_code": "DN6768227029"
+      },
+      "prescription_code": "25337363",
+      "diagnosis": "G47.0: Rối loạn giấc ngủ; I25.1: Bệnh tim thiếu máu cục bộ mạn",
+      "doctor": {
+        "name": "Vũ Văn F",
+        "title": "BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Melatonin",
+          "brand_name": "Melatonin",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên trước ngủ 30 phút"
+        },
+        {
+          "generic_name": "Rotunda",
+          "brand_name": "Rotunda",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 1-2 viên trước khi ngủ"
+        },
+        {
+          "generic_name": "Magnesium_B6",
+          "brand_name": "Magne-B6",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Aspirin",
+          "brand_name": "Aspirin Cardio",
+          "dosage": "81mg",
+          "unit": "Viên",
+          "quantity": 8,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Nitroglycerin",
+          "brand_name": "Nitromint",
+          "dosage": "2.6mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        }
+      ],
+      "follow_up_date": "27/06/2026",
+      "prescription_date": "ngày 30 tháng 05 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000061",
+      "duration_days": 28,
+      "error_type": "missing_digit",
+      "error_description": "Số lượng thiếu chữ số: 28 -> 8"
+    },
+    {
+      "id": 34,
+      "patient": {
+        "name": "ĐẶNG VĂN EM",
+        "age": 79,
+        "gender": "Nam",
+        "address": "934 Đường Nguyễn Huệ, Hải Phòng",
+        "insurance_code": "DN7369260718"
+      },
+      "prescription_code": "25911056",
+      "diagnosis": "I10: Tăng huyết áp vô căn; G47.0: Rối loạn giấc ngủ; M17: Thoái hóa khớp gối; E78.0: Tăng cholesterol máu thuần; H04.1: Hội chứng khô mắt",
+      "doctor": {
+        "name": "Trần Thị B",
+        "title": "ThS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Hydrochlorothiazide",
+          "brand_name": "Hypothiazid",
+          "dosage": "25mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Amlodipine",
+          "brand_name": "Amlor",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Perindopril",
+          "brand_name": "Coversyl",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng trước ăn"
+        },
+        {
+          "generic_name": "Magnesium_B6",
+          "brand_name": "Magne-B6",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Glucosamine",
+          "brand_name": "Viartril-S",
+          "dosage": "1500mg",
+          "unit": "Gói",
+          "quantity": 28,
+          "instructions": "Uống 1 gói trước ăn sáng"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Efferalgan",
+          "dosage": "500mg",
+          "unit": "Viên sủi",
+          "quantity": 28,
+          "instructions": "Hòa 1 viên vào nước, uống khi đau/sốt"
+        },
+        {
+          "generic_name": "Ezetimibe",
+          "brand_name": "Ezetrol",
+          "dosage": "10mg",
+          "unit": "Chai",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Rosuvastatin",
+          "brand_name": "Crestor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Fenofibrate",
+          "brand_name": "Lipanthyl",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Vitamin A",
+          "brand_name": "Vitamin A",
+          "dosage": "5000IU",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên"
+        },
+        {
+          "generic_name": "Omega-3",
+          "brand_name": "Omega-3",
+          "dosage": "1000mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn"
+        }
+      ],
+      "follow_up_date": "22/06/2026",
+      "prescription_date": "ngày 25 tháng 05 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000063",
+      "duration_days": 28,
+      "error_type": "wrong_unit",
+      "error_description": "Sai đơn vị tính nghiêm trọng: Viên -> Chai"
+    },
+    {
+      "id": 35,
+      "patient": {
+        "name": "HUỲNH QUANG OANH",
+        "age": 16,
+        "gender": "Nữ",
+        "address": "949 Đường Trần Hưng Đạo, Cần Thơ",
+        "insurance_code": "DN4068573243"
+      },
+      "prescription_code": "25618434",
+      "diagnosis": "L20.9: Viêm da cơ địa",
+      "doctor": {
+        "name": "Lê Vũ C",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Hydrocortisone_Cream",
+          "brand_name": "Eumovate",
+          "dosage": "15g",
+          "unit": "Tuýp",
+          "quantity": 2,
+          "instructions": "Bôi vùng da viêm 2 lần/ngày"
+        },
+        {
+          "generic_name": "Cetirizine",
+          "brand_name": "Zyrtec",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 280,
+          "instructions": "Ngày uống 1 viên tối"
+        }
+      ],
+      "follow_up_date": "23/10/2026",
+      "prescription_date": "ngày 25 tháng 09 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000065",
+      "duration_days": 28,
+      "error_type": "extra_zero",
+      "error_description": "Số lượng thừa số 0: 280"
+    },
+    {
+      "id": 36,
+      "patient": {
+        "name": "BÙI THANH HÙNG",
+        "age": 69,
+        "gender": "Nam",
+        "address": "541 Đường Nguyễn Huệ, Cần Thơ",
+        "insurance_code": "DN4174694803"
+      },
+      "prescription_code": "25385349",
+      "diagnosis": "E11: Đái tháo đường type 2; I10: Tăng huyết áp vô căn; E78.0: Tăng cholesterol máu thuần; I25.1: Bệnh tim thiếu máu cục bộ mạn",
+      "doctor": {
+        "name": "Nguyễn Văn A",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Metformin",
+          "brand_name": "Glucophage XR",
+          "dosage": "750mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 1-2 viên sau ăn tối"
+        },
+        {
+          "generic_name": "Gliclazide",
+          "brand_name": "Diamicron MR",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên trước ăn sáng"
+        },
+        {
+          "generic_name": "Insulin_Glargine",
+          "brand_name": "Lantus",
+          "dosage": "100U/ml",
+          "unit": "Bút tiêm",
+          "quantity": 28,
+          "instructions": "Tiêm dưới da 10 đơn vị buổi tối"
+        },
+        {
+          "generic_name": "Sitagliptin",
+          "brand_name": "Januvia",
+          "dosage": "100mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Amlodipine",
+          "brand_name": "Amlor",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Telmisartan",
+          "brand_name": "Micardis",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Fenofibrate",
+          "brand_name": "Lipanthyl",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 8,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Ezetimibe",
+          "brand_name": "Ezetrol",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Clopidogrel",
+          "brand_name": "Plavix",
+          "dosage": "75mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Aspirin",
+          "brand_name": "Aspirin Cardio",
+          "dosage": "81mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        }
+      ],
+      "follow_up_date": "29/11/2026",
+      "prescription_date": "ngày 01 tháng 11 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000066",
+      "duration_days": 28,
+      "error_type": "missing_digit",
+      "error_description": "Số lượng thiếu chữ số: 28 -> 8"
+    },
+    {
+      "id": 37,
+      "patient": {
+        "name": "NGÔ NGỌC SƠN",
+        "age": 61,
+        "gender": "Nam",
+        "address": "207 Đường Nguyễn Huệ, Hải Phòng",
+        "insurance_code": "DN5544036620"
+      },
+      "prescription_code": "25221978",
+      "diagnosis": "I25.1: Bệnh tim thiếu máu cục bộ mạn; M17: Thoái hóa khớp gối; H04.1: Hội chứng khô mắt; I63.9: Di chứng nhồi máu não; I10: Tăng huyết áp vô căn",
+      "doctor": {
+        "name": "Phạm Minh D",
+        "title": "TS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Bisoprolol",
+          "brand_name": "Concor",
+          "dosage": "2.5mg",
+          "unit": "Lọ",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Efferalgan",
+          "dosage": "500mg",
+          "unit": "Viên sủi",
+          "quantity": 28,
+          "instructions": "Hòa 1 viên vào nước, uống khi đau/sốt"
+        },
+        {
+          "generic_name": "Glucosamine",
+          "brand_name": "Viartril-S",
+          "dosage": "1500mg",
+          "unit": "Gói",
+          "quantity": 28,
+          "instructions": "Uống 1 gói trước ăn sáng"
+        },
+        {
+          "generic_name": "Artificial_Tears",
+          "brand_name": "Systane Ultra",
+          "dosage": "10ml",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Nhỏ mắt khi khô, 3-4 lần/ngày"
+        },
+        {
+          "generic_name": "Omega-3",
+          "brand_name": "Omega-3",
+          "dosage": "1000mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn"
+        },
+        {
+          "generic_name": "Vitamin A",
+          "brand_name": "Vitamin A",
+          "dosage": "5000IU",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên"
+        },
+        {
+          "generic_name": "Aspirin",
+          "brand_name": "Aspirin Cardio",
+          "dosage": "81mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Hydrochlorothiazide",
+          "brand_name": "Hypothiazid",
+          "dosage": "25mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Losartan",
+          "brand_name": "Cozaar",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Perindopril",
+          "brand_name": "Coversyl",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng trước ăn"
+        },
+        {
+          "generic_name": "Telmisartan",
+          "brand_name": "Micardis",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        }
+      ],
+      "follow_up_date": "22/09/2026",
+      "prescription_date": "ngày 25 tháng 08 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "CT-Scanner, MRI, Huyết đồ",
+      "barcode_bottom": "000000000068",
+      "duration_days": 28,
+      "error_type": "wrong_unit",
+      "error_description": "Sai đơn vị tính nghiêm trọng: Viên -> Lọ"
+    },
+    {
+      "id": 38,
+      "patient": {
+        "name": "HUỲNH HỮU THẢO",
+        "age": 38,
+        "gender": "Nữ",
+        "address": "427 Đường 3/2, Cần Thơ",
+        "insurance_code": "DN5479970653"
+      },
+      "prescription_code": "25724408",
+      "diagnosis": "K73.9: Viêm gan mạn tính; I10: Tăng huyết áp vô căn; G43.9: Migraine",
+      "doctor": {
+        "name": "Phạm Minh D",
+        "title": "TS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Vitamin B_Group",
+          "brand_name": "Neurobion",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn"
+        },
+        {
+          "generic_name": "L-Ornithine",
+          "brand_name": "Barcavir",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên sau ăn"
+        },
+        {
+          "generic_name": "Losartan",
+          "brand_name": "Cozaar",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "quantity": 280,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Perindopril",
+          "brand_name": "Coversyl",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng trước ăn"
+        },
+        {
+          "generic_name": "Amlodipine",
+          "brand_name": "Amlor",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Flunarizine",
+          "brand_name": "Sibelium",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Efferalgan",
+          "dosage": "500mg",
+          "unit": "Viên sủi",
+          "quantity": 28,
+          "instructions": "Hòa 1 viên vào nước, uống khi đau/sốt"
+        }
+      ],
+      "follow_up_date": "03/12/2026",
+      "prescription_date": "ngày 05 tháng 11 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000069",
+      "duration_days": 28,
+      "error_type": "wrong_quantity_x10",
+      "error_description": "Số lượng thuốc Cozaar gấp 10 lần bình thường"
+    },
+    {
+      "id": 39,
+      "patient": {
+        "name": "VŨ HỮU CƯỜNG",
+        "age": 84,
+        "gender": "Nữ",
+        "address": "301 Đường Nguyễn Huệ, Cần Thơ",
+        "insurance_code": "DN5761090484"
+      },
+      "prescription_code": "25964540",
+      "diagnosis": "G47.0: Rối loạn giấc ngủ; H04.1: Hội chứng khô mắt; I25.1: Bệnh tim thiếu máu cục bộ mạn; I63.9: Di chứng nhồi máu não; M17: Thoái hóa khớp gối; E78.0: Tăng cholesterol máu thuần",
+      "doctor": {
+        "name": "Nguyễn Văn A",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Rotunda",
+          "brand_name": "Rotunda",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 1-2 viên trước khi ngủ"
+        },
+        {
+          "generic_name": "Melatonin",
+          "brand_name": "Melatonin",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên trước ngủ 30 phút"
+        },
+        {
+          "generic_name": "Vitamin A",
+          "brand_name": "Vitamin A",
+          "dosage": "5000IU",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên"
+        },
+        {
+          "generic_name": "Artificial_Tears",
+          "brand_name": "Systane Ultra",
+          "dosage": "10ml",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Nhỏ mắt khi khô, 3-4 lần/ngày"
+        },
+        {
+          "generic_name": "Clopidogrel",
+          "brand_name": "Plavix",
+          "dosage": "75mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Bisoprolol",
+          "brand_name": "Concor",
+          "dosage": "2.5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Aspirin",
+          "brand_name": "Aspirin Cardio",
+          "dosage": "81mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Piracetam",
+          "brand_name": "Nootropil",
+          "dosage": "800mg",
+          "unit": "Viên",
+          "quantity": 84,
+          "instructions": "Ngày uống 3 viên sau ăn"
+        },
+        {
+          "generic_name": "Glucosamine",
+          "brand_name": "Viartril-S",
+          "dosage": "1500mg",
+          "unit": "Gói",
+          "quantity": 28,
+          "instructions": "Uống 1 gói trước ăn sáng"
+        },
+        {
+          "generic_name": "Diclofenac_Gel",
+          "brand_name": "Voltaren Emulgel",
+          "dosage": "20g",
+          "unit": "Tuýp",
+          "quantity": 2,
+          "instructions": "Bôi vùng đau 2 lần/ngày"
+        },
+        {
+          "generic_name": "Celecoxib",
+          "brand_name": "Celebrex",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn no"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Panadol",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Uống 1 viên khi đau/sốt, cách mỗi 4-6h"
+        },
+        {
+          "generic_name": "Rosuvastatin",
+          "brand_name": "Crestor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Fenofibrate",
+          "brand_name": "Lipanthyl",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Ezetimibe",
+          "brand_name": "Ezetrol",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        }
+      ],
+      "follow_up_date": "16/01/2027",
+      "prescription_date": "ngày 19 tháng 12 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "CT-Scanner, MRI, Huyết đồ",
+      "barcode_bottom": "000000000070",
+      "duration_days": 28
+    },
+    {
+      "id": 40,
+      "patient": {
+        "name": "ĐỖ QUANG EM",
+        "age": 83,
+        "gender": "Nam",
+        "address": "565 Đường CMT8, Đà Nẵng",
+        "insurance_code": "DN7552589655"
+      },
+      "prescription_code": "25168370",
+      "diagnosis": "G47.0: Rối loạn giấc ngủ; I25.1: Bệnh tim thiếu máu cục bộ mạn",
+      "doctor": {
+        "name": "Trần Thị B",
+        "title": "ThS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Magnesium_B6",
+          "brand_name": "Magne-B6",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Rotunda",
+          "brand_name": "Rotunda",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 1-2 viên trước khi ngủ"
+        },
+        {
+          "generic_name": "Nitroglycerin",
+          "brand_name": "Nitromint",
+          "dosage": "2.6mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Bisoprolol",
+          "brand_name": "Concor",
+          "dosage": "2.5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Rosuvastatin",
+          "brand_name": "Crestor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Aspirin",
+          "brand_name": "Aspirin Cardio",
+          "dosage": "81mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Clopidogrel",
+          "brand_name": "Plavix",
+          "dosage": "75mg",
+          "unit": "Viên",
+          "quantity": 280,
+          "instructions": "Ngày uống 1 viên sáng"
+        }
+      ],
+      "follow_up_date": "09/04/2026",
+      "prescription_date": "ngày 12 tháng 03 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000074",
+      "duration_days": 28,
+      "error_type": "wrong_quantity_x10",
+      "error_description": "Số lượng thuốc Plavix gấp 10 lần bình thường"
+    },
+    {
+      "id": 41,
+      "patient": {
+        "name": "PHAN THANH LAN",
+        "age": 16,
+        "gender": "Nam",
+        "address": "322 Đường Võ Văn Kiệt, Hải Phòng",
+        "insurance_code": "DN9683334101"
+      },
+      "prescription_code": "25742366",
+      "diagnosis": "G40.9: Bệnh động kinh",
+      "doctor": {
+        "name": "Phạm Minh D",
+        "title": "TS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Valproic_Acid",
+          "brand_name": "Depakin",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 560,
+          "instructions": "Ngày uống 2 viên sau ăn"
+        }
+      ],
+      "follow_up_date": "16/10/2026",
+      "prescription_date": "ngày 18 tháng 09 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000078",
+      "duration_days": 28,
+      "error_type": "wrong_quantity_x10",
+      "error_description": "Số lượng thuốc Depakin gấp 10 lần bình thường"
+    },
+    {
+      "id": 42,
+      "patient": {
+        "name": "VÕ HỮU SƠN",
+        "age": 70,
+        "gender": "Nữ",
+        "address": "21 Đường 3/2, Hải Phòng",
+        "insurance_code": "DN9517088144"
+      },
+      "prescription_code": "25597094",
+      "diagnosis": "M17: Thoái hóa khớp gối; J44.9: Bệnh phổi tắc nghẽn mạn tính (COPD); I63.9: Di chứng nhồi máu não",
+      "doctor": {
+        "name": "Lê Vũ C",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Panadol",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Uống 1 viên khi đau/sốt, cách mỗi 4-6h"
+        },
+        {
+          "generic_name": "Glucosamine",
+          "brand_name": "Viartril-S",
+          "dosage": "1500mg",
+          "unit": "Gói",
+          "quantity": 28,
+          "instructions": "Uống 1 gói trước ăn sáng"
+        },
+        {
+          "generic_name": "Salbutamol_Inhaler",
+          "brand_name": "Ventolin Inhaler",
+          "dosage": "100mcg",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Xịt 2 nhát khi lên cơn khó thở"
+        },
+        {
+          "generic_name": "Aspirin",
+          "brand_name": "Aspirin Cardio",
+          "dosage": "81mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Piracetam",
+          "brand_name": "Nootropil",
+          "dosage": "800mg",
+          "unit": "Viên",
+          "quantity": 84,
+          "instructions": "Ngày uống 3 viên sau ăn"
+        }
+      ],
+      "follow_up_date": "09/03/2026",
+      "prescription_date": "ngày 09 tháng 02 năm 2026",
+      "notes": "",
+      "lab_tests": "CT-Scanner, MRI, Huyết đồ",
+      "barcode_bottom": "000000000079",
+      "duration_days": 28
+    },
+    {
+      "id": 43,
+      "patient": {
+        "name": "TRẦN HỮU HẢI",
+        "age": 23,
+        "gender": "Nữ",
+        "address": "108 Đường Nguyễn Huệ, Hải Phòng",
+        "insurance_code": "DN8587296249"
+      },
+      "prescription_code": "25693422",
+      "diagnosis": "I10: Tăng huyết áp vô căn; E11: Đái tháo đường type 2",
+      "doctor": {
+        "name": "Lê Vũ C",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Amlodipine",
+          "brand_name": "Amlor",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Losartan",
+          "brand_name": "Cozaar",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Hydrochlorothiazide",
+          "brand_name": "Hypothiazid",
+          "dosage": "25mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Perindopril",
+          "brand_name": "Coversyl",
+          "dosage": "5mg",
+          "unit": "Ống",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng trước ăn"
+        },
+        {
+          "generic_name": "Empagliflozin",
+          "brand_name": "Jardiance",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Sitagliptin",
+          "brand_name": "Januvia",
+          "dosage": "100mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        }
+      ],
+      "follow_up_date": "03/05/2026",
+      "prescription_date": "ngày 05 tháng 04 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000080",
+      "duration_days": 28,
+      "error_type": "wrong_unit",
+      "error_description": "Sai đơn vị tính nghiêm trọng: Viên -> Ống"
+    },
+    {
+      "id": 44,
+      "patient": {
+        "name": "ĐỖ MINH THẢO",
+        "age": 4,
+        "gender": "Nữ",
+        "address": "227 Đường Nguyễn Huệ, TP.HCM",
+        "insurance_code": "DN8740043978"
+      },
+      "prescription_code": "25797737",
+      "diagnosis": "G40.9: Bệnh động kinh",
+      "doctor": {
+        "name": "Hoàng Thị E",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Valproic_Acid",
+          "brand_name": "Depakin",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên sau ăn"
+        },
+        {
+          "generic_name": "Levetiracetam",
+          "brand_name": "Keppra",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 560,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        }
+      ],
+      "follow_up_date": "02/10/2026",
+      "prescription_date": "ngày 04 tháng 09 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000085",
+      "duration_days": 28,
+      "error_type": "extra_zero",
+      "error_description": "Số lượng thừa số 0: 560"
+    },
+    {
+      "id": 45,
+      "patient": {
+        "name": "PHẠM NGỌC OANH",
+        "age": 83,
+        "gender": "Nam",
+        "address": "472 Đường 3/2, Đà Nẵng",
+        "insurance_code": "DN7211473409"
+      },
+      "prescription_code": "25714792",
+      "diagnosis": "J44.9: Bệnh phổi tắc nghẽn mạn tính (COPD); M17: Thoái hóa khớp gối; E11: Đái tháo đường type 2",
+      "doctor": {
+        "name": "Lê Vũ C",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Prednisolone",
+          "brand_name": "Prednisolone",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 4 viên buổi sáng sau ăn"
+        },
+        {
+          "generic_name": "Salbutamol_Inhaler",
+          "brand_name": "Ventolin Inhaler",
+          "dosage": "100mcg",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Xịt 2 nhát khi lên cơn khó thở"
+        },
+        {
+          "generic_name": "Azithromycin",
+          "brand_name": "Zithromax",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên (uống 3 ngày)"
+        },
+        {
+          "generic_name": "Budesonide",
+          "brand_name": "Pulmicort",
+          "dosage": "0.5mg",
+          "unit": "Ống",
+          "quantity": 56,
+          "instructions": "Khí dung 1 ống x 2 lần/ngày"
+        },
+        {
+          "generic_name": "Tiotropium",
+          "brand_name": "Spiriva",
+          "dosage": "18mcg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Hít 1 viên mỗi sáng"
+        },
+        {
+          "generic_name": "Celecoxib",
+          "brand_name": "Celebrex",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn no"
+        },
+        {
+          "generic_name": "Glucosamine",
+          "brand_name": "Viartril-S",
+          "dosage": "1500mg",
+          "unit": "Gói",
+          "quantity": 28,
+          "instructions": "Uống 1 gói trước ăn sáng"
+        },
+        {
+          "generic_name": "Diclofenac_Gel",
+          "brand_name": "Voltaren Emulgel",
+          "dosage": "20g",
+          "unit": "Tuýp",
+          "quantity": 1,
+          "instructions": "Bôi vùng đau 2 lần/ngày"
+        },
+        {
+          "generic_name": "Metformin",
+          "brand_name": "Glucophage XR",
+          "dosage": "750mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 1-2 viên sau ăn tối"
+        },
+        {
+          "generic_name": "Insulin_Glargine",
+          "brand_name": "Lantus",
+          "dosage": "100U/ml",
+          "unit": "Bút tiêm",
+          "quantity": 28,
+          "instructions": "Tiêm dưới da 10 đơn vị buổi tối"
+        },
+        {
+          "generic_name": "Gliclazide",
+          "brand_name": "Diamicron MR",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên trước ăn sáng"
+        },
+        {
+          "generic_name": "Sitagliptin",
+          "brand_name": "Januvia",
+          "dosage": "100mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        }
+      ],
+      "follow_up_date": "16/08/2026",
+      "prescription_date": "ngày 19 tháng 07 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000087",
+      "duration_days": 28
+    },
+    {
+      "id": 46,
+      "patient": {
+        "name": "VŨ THANH EM",
+        "age": 46,
+        "gender": "Nam",
+        "address": "942 Đường CMT8, Hà Nội",
+        "insurance_code": "DN8429217381"
+      },
+      "prescription_code": "25119995",
+      "diagnosis": "E78.0: Tăng cholesterol máu thuần; G40.9: Bệnh động kinh",
+      "doctor": {
+        "name": "Hoàng Thị E",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Ezetimibe",
+          "brand_name": "Ezetrol",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Fenofibrate",
+          "brand_name": "Lipanthyl",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Rosuvastatin",
+          "brand_name": "Crestor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Valproic_Acid",
+          "brand_name": "Depakin",
+          "dosage": "200mg",
+          "unit": "Ống",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên sau ăn"
+        },
+        {
+          "generic_name": "Carbamazepine",
+          "brand_name": "Tegretol",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên"
+        }
+      ],
+      "follow_up_date": "06/07/2026",
+      "prescription_date": "ngày 08 tháng 06 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000091",
+      "duration_days": 28,
+      "error_type": "wrong_unit",
+      "error_description": "Sai đơn vị tính nghiêm trọng: Viên -> Ống"
+    },
+    {
+      "id": 47,
+      "patient": {
+        "name": "VŨ THU TÙNG",
+        "age": 28,
+        "gender": "Nam",
+        "address": "262 Đường Lê Lợi, Hải Phòng",
+        "insurance_code": "DN9011137553"
+      },
+      "prescription_code": "25595516",
+      "diagnosis": "H04.1: Hội chứng khô mắt; E78.0: Tăng cholesterol máu thuần; G47.0: Rối loạn giấc ngủ",
+      "doctor": {
+        "name": "Vũ Văn F",
+        "title": "BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Artificial_Tears",
+          "brand_name": "Systane Ultra",
+          "dosage": "10ml",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Nhỏ mắt khi khô, 3-4 lần/ngày"
+        },
+        {
+          "generic_name": "Omega-3",
+          "brand_name": "Omega-3",
+          "dosage": "1000mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn"
+        },
+        {
+          "generic_name": "Vitamin A",
+          "brand_name": "Vitamin A",
+          "dosage": "5000IU",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên"
+        },
+        {
+          "generic_name": "Fenofibrate",
+          "brand_name": "Lipanthyl",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Bịch",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Ezetimibe",
+          "brand_name": "Ezetrol",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Magnesium_B6",
+          "brand_name": "Magne-B6",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Rotunda",
+          "brand_name": "Rotunda",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 1-2 viên trước khi ngủ"
+        },
+        {
+          "generic_name": "Melatonin",
+          "brand_name": "Melatonin",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên trước ngủ 30 phút"
+        }
+      ],
+      "follow_up_date": "24/01/2027",
+      "prescription_date": "ngày 27 tháng 12 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000092",
+      "duration_days": 28,
+      "error_type": "wrong_unit",
+      "error_description": "Sai đơn vị tính nghiêm trọng: Viên -> Bịch"
+    },
+    {
+      "id": 48,
+      "patient": {
+        "name": "NGUYỄN QUANG TÙNG",
+        "age": 88,
+        "gender": "Nam",
+        "address": "297 Đường Nguyễn Huệ, Cần Thơ",
+        "insurance_code": "DN6939866161"
+      },
+      "prescription_code": "25374242",
+      "diagnosis": "H04.1: Hội chứng khô mắt",
+      "doctor": {
+        "name": "Hoàng Thị E",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Artificial_Tears",
+          "brand_name": "Systane Ultra",
+          "dosage": "10ml",
+          "unit": "Ống",
+          "quantity": 1,
+          "instructions": "Nhỏ mắt khi khô, 3-4 lần/ngày"
+        }
+      ],
+      "follow_up_date": "19/07/2026",
+      "prescription_date": "ngày 21 tháng 06 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000093",
+      "duration_days": 28,
+      "error_type": "wrong_unit",
+      "error_description": "Sai đơn vị tính nghiêm trọng: Lọ -> Ống"
+    },
+    {
+      "id": 49,
+      "patient": {
+        "name": "HUỲNH ĐỨC MAI",
+        "age": 89,
+        "gender": "Nam",
+        "address": "920 Đường 3/2, Hải Phòng",
+        "insurance_code": "DN9729548197"
+      },
+      "prescription_code": "25924511",
+      "diagnosis": "M17: Thoái hóa khớp gối; I63.9: Di chứng nhồi máu não; I10: Tăng huyết áp vô căn; I25.1: Bệnh tim thiếu máu cục bộ mạn",
+      "doctor": {
+        "name": "Phạm Minh D",
+        "title": "TS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Diclofenac_Gel",
+          "brand_name": "Voltaren Emulgel",
+          "dosage": "20g",
+          "unit": "Tuýp",
+          "quantity": 2,
+          "instructions": "Bôi vùng đau 2 lần/ngày"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Efferalgan",
+          "dosage": "500mg",
+          "unit": "Viên sủi",
+          "quantity": 28,
+          "instructions": "Hòa 1 viên vào nước, uống khi đau/sốt"
+        },
+        {
+          "generic_name": "Glucosamine",
+          "brand_name": "Viartril-S",
+          "dosage": "1500mg",
+          "unit": "Gói",
+          "quantity": 28,
+          "instructions": "Uống 1 gói trước ăn sáng"
+        },
+        {
+          "generic_name": "Celecoxib",
+          "brand_name": "Celebrex",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn no"
+        },
+        {
+          "generic_name": "Aspirin",
+          "brand_name": "Aspirin Cardio",
+          "dosage": "81mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Citicoline",
+          "brand_name": "Somazina",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Clopidogrel",
+          "brand_name": "Plavix",
+          "dosage": "75mg",
+          "unit": "Viên",
+          "quantity": 280,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Hydrochlorothiazide",
+          "brand_name": "Hypothiazid",
+          "dosage": "25mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Bisoprolol",
+          "brand_name": "Concor",
+          "dosage": "2.5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        }
+      ],
+      "follow_up_date": "06/08/2026",
+      "prescription_date": "ngày 09 tháng 07 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "CT-Scanner, MRI, Huyết đồ",
+      "barcode_bottom": "000000000095",
+      "duration_days": 28,
+      "error_type": "wrong_quantity_x10",
+      "error_description": "Số lượng thuốc Plavix gấp 10 lần bình thường"
+    },
+    {
+      "id": 50,
+      "patient": {
+        "name": "ĐỖ MINH GIANG",
+        "age": 66,
+        "gender": "Nam",
+        "address": "385 Đường Trần Hưng Đạo, TP.HCM",
+        "insurance_code": "DN5842339228"
+      },
+      "prescription_code": "25153531",
+      "diagnosis": "H04.1: Hội chứng khô mắt; I10: Tăng huyết áp vô căn; M17: Thoái hóa khớp gối; J44.9: Bệnh phổi tắc nghẽn mạn tính (COPD)",
+      "doctor": {
+        "name": "Vũ Văn F",
+        "title": "BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Vitamin A",
+          "brand_name": "Vitamin A",
+          "dosage": "5000IU",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên"
+        },
+        {
+          "generic_name": "Hydrochlorothiazide",
+          "brand_name": "Hypothiazid",
+          "dosage": "25mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Telmisartan",
+          "brand_name": "Micardis",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Amlodipine",
+          "brand_name": "Amlor",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Efferalgan",
+          "dosage": "500mg",
+          "unit": "Viên sủi",
+          "quantity": 28,
+          "instructions": "Hòa 1 viên vào nước, uống khi đau/sốt"
+        },
+        {
+          "generic_name": "Diclofenac_Gel",
+          "brand_name": "Voltaren Emulgel",
+          "dosage": "20g",
+          "unit": "Tuýp",
+          "quantity": 2,
+          "instructions": "Bôi vùng đau 2 lần/ngày"
+        },
+        {
+          "generic_name": "Celecoxib",
+          "brand_name": "Celebrex",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn no"
+        },
+        {
+          "generic_name": "Glucosamine",
+          "brand_name": "Viartril-S",
+          "dosage": "1500mg",
+          "unit": "Gói",
+          "quantity": 28,
+          "instructions": "Uống 1 gói trước ăn sáng"
+        },
+        {
+          "generic_name": "Salbutamol_Inhaler",
+          "brand_name": "Ventolin Inhaler",
+          "dosage": "100mcg",
+          "unit": "Lọ",
+          "quantity": 2,
+          "instructions": "Xịt 2 nhát khi lên cơn khó thở"
+        },
+        {
+          "generic_name": "Tiotropium",
+          "brand_name": "Spiriva",
+          "dosage": "18mcg",
+          "unit": "Viên",
+          "quantity": 280,
+          "instructions": "Hít 1 viên mỗi sáng"
+        },
+        {
+          "generic_name": "Budesonide",
+          "brand_name": "Pulmicort",
+          "dosage": "0.5mg",
+          "unit": "Ống",
+          "quantity": 56,
+          "instructions": "Khí dung 1 ống x 2 lần/ngày"
+        },
+        {
+          "generic_name": "Prednisolone",
+          "brand_name": "Prednisolone",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 4 viên buổi sáng sau ăn"
+        },
+        {
+          "generic_name": "Azithromycin",
+          "brand_name": "Zithromax",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên (uống 3 ngày)"
+        }
+      ],
+      "follow_up_date": "02/08/2026",
+      "prescription_date": "ngày 05 tháng 07 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000098",
+      "duration_days": 28,
+      "error_type": "wrong_quantity_x10",
+      "error_description": "Số lượng thuốc Spiriva gấp 10 lần bình thường"
+    },
+    {
+      "id": 51,
+      "patient": {
+        "name": "VÕ XUÂN HẢI",
+        "age": 1,
+        "gender": "Nam",
+        "address": "255 Đường 3/2, TP.HCM",
+        "insurance_code": "DN8945877153"
+      },
+      "prescription_code": "25831989",
+      "diagnosis": "J20.9: Viêm phế quản cấp",
+      "doctor": {
+        "name": "Vũ Văn F",
+        "title": "BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Amoxicillin_Clavulanate",
+          "brand_name": "Klamentin",
+          "dosage": "875/125mg",
+          "unit": "Lọ",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên sau ăn"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Panadol",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên khi đau/sốt, cách mỗi 4-6h"
+        },
+        {
+          "generic_name": "Acetylcysteine",
+          "brand_name": "Exomuc",
+          "dosage": "200mg",
+          "unit": "Gói",
+          "quantity": 7,
+          "instructions": "Hòa tan uống, ngày 2 gói"
+        }
+      ],
+      "follow_up_date": "25/07/2026",
+      "prescription_date": "ngày 18 tháng 07 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000100",
+      "duration_days": 7,
+      "error_type": "wrong_unit",
+      "error_description": "Sai đơn vị tính nghiêm trọng: Viên -> Lọ"
+    },
+    {
+      "id": 52,
+      "patient": {
+        "name": "PHẠM ĐỨC HÙNG",
+        "age": 58,
+        "gender": "Nam",
+        "address": "ấp 3, Xã Vị thủy, Thành phố Cần Thơ",
+        "insurance_code": "BT2939321351869 - 93002"
+      },
+      "prescription_code": "25808008",
+      "diagnosis": "Z95.4: Sự có mặt của van tim thay thế khác; I10;E78;I25;J44;K21: Bệnh tăng huyết áp vô căn (nguyên phát); Rối loạn chuyển hóa lipoprotein và tình trạng tăng lipid máu khác; Bệnh tim thiếu máu cục bộ mạn; Các bệnh phổi tắc nghẽn mãn tính khác; Bệnh trào ngược dạ dày - thực quản; VAN CƠ HỌC",
+      "doctor": {
+        "name": "Lê Thị Kim Đài",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Amlodipine",
+          "brand_name": "Amlor",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Metformin",
+          "brand_name": "Glucophage XR",
+          "dosage": "750mg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 viên sau ăn tối"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "20mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Bisoprolol",
+          "brand_name": "Concor",
+          "dosage": "2.5mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Esomeprazole",
+          "brand_name": "Nexium",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên trước ăn sáng 30 phút"
+        },
+        {
+          "generic_name": "Celecoxib",
+          "brand_name": "Celebrex",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 15,
+          "instructions": "Ngày uống 1 viên sau ăn no (khi đau)"
+        },
+        {
+          "generic_name": "Eperisone",
+          "brand_name": "Myonal",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 lần, mỗi lần 1 viên sau ăn"
+        },
+        {
+          "generic_name": "Mecobalamin",
+          "brand_name": "Methycobal",
+          "dosage": "500mcg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 lần, mỗi lần 1 viên"
+        },
+        {
+          "generic_name": "Loratadine",
+          "brand_name": "Clarityne",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 10,
+          "instructions": "Ngày uống 1 viên buổi tối (khi ngứa mũi)"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Panadol",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 20,
+          "instructions": "Uống 1 viên khi đau đầu, cách mỗi 4-6 giờ"
+        },
+        {
+          "generic_name": "Ginkgo Biloba",
+          "brand_name": "Tanakan",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 lần, mỗi lần 1 viên"
+        },
+        {
+          "generic_name": "Calcium D3",
+          "brand_name": "Calcium Corbiere",
+          "dosage": "10ml",
+          "unit": "Ống",
+          "quantity": 30,
+          "instructions": "Sáng uống 1 ống sau ăn"
+        },
+        {
+          "generic_name": "Vitamin C",
+          "brand_name": "Upsa C",
+          "dosage": "1000mg",
+          "unit": "Viên sủi",
+          "quantity": 10,
+          "instructions": "Sáng uống 1 viên (hòa tan trong nước)"
+        },
+        {
+          "generic_name": "Magnesium B6",
+          "brand_name": "Magne-B6 Corbiere",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Trưa uống 1 viên sau ăn"
+        },
+        {
+          "generic_name": "Artificial Tears",
+          "brand_name": "Refresh",
+          "dosage": "15ml",
+          "unit": "Lọ",
+          "quantity": 100,
+          "instructions": "Nhỏ mắt khi mỏi, khô"
+        }
+      ],
+      "follow_up_date": "17/06/2026",
+      "prescription_date": "ngày 20 tháng 05 năm 2026",
+      "notes": "Bệnh nhân nhớ tái khám đúng hẹn và mang theo sổ khám bệnh.",
+      "lab_tests": "Sinh hóa máu (Glucose, HbA1c, Lipid máu, Chức năng gan thận), Điện tâm đồ.",
+      "barcode_bottom": "000000000106",
+      "duration_days": 28,
+      "error_type": "wrong_quantity_x100",
+      "error_description": "Số lượng thuốc Refresh gấp 100 lần (lỗi nhập liệu)"
+    },
+    {
+      "id": 53,
+      "patient": {
+        "name": "NGUYỄN ĐỨC TRẬN",
+        "age": 58,
+        "gender": "Nam",
+        "address": "ấp 3, Xã Vị thủy, Thành phố Cần Thơ",
+        "insurance_code": "BT2939321351869 - 93002"
+      },
+      "prescription_code": "25915112",
+      "diagnosis": "Z95.4: Sự có mặt của van tim thay thế khác; I10;E78;I25;J44;K21: Bệnh tăng huyết áp vô căn (nguyên phát); Rối loạn chuyển hóa lipoprotein và tình trạng tăng lipid máu khác; Bệnh tim thiếu máu cục bộ mạn; Các bệnh phổi tắc nghẽn mãn tính khác; Bệnh trào ngược dạ dày - thực quản; VAN CƠ HỌC",
+      "doctor": {
+        "name": "Lê Thị Kim Đài",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Amlodipine",
+          "brand_name": "Amlor",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Metformin",
+          "brand_name": "Glucophage XR",
+          "dosage": "750mg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 viên sau ăn tối"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "20mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Bisoprolol",
+          "brand_name": "Concor",
+          "dosage": "2.5mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Esomeprazole",
+          "brand_name": "Nexium",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên trước ăn sáng 30 phút"
+        },
+        {
+          "generic_name": "Celecoxib",
+          "brand_name": "Celebrex",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 15,
+          "instructions": "Ngày uống 1 viên sau ăn no (khi đau)"
+        },
+        {
+          "generic_name": "Eperisone",
+          "brand_name": "Myonal",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 lần, mỗi lần 1 viên sau ăn"
+        },
+        {
+          "generic_name": "Mecobalamin",
+          "brand_name": "Methycobal",
+          "dosage": "500mcg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 lần, mỗi lần 1 viên"
+        },
+        {
+          "generic_name": "Loratadine",
+          "brand_name": "Clarityne",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 10,
+          "instructions": "Ngày uống 1 viên buổi tối (khi ngứa mũi)"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Panadol",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 20,
+          "instructions": "Uống 1 viên khi đau đầu, cách mỗi 4-6 giờ"
+        },
+        {
+          "generic_name": "Ginkgo Biloba",
+          "brand_name": "Tanakan",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 0,
+          "instructions": "Ngày uống 2 lần, mỗi lần 1 viên"
+        },
+        {
+          "generic_name": "Calcium D3",
+          "brand_name": "Calcium Corbiere",
+          "dosage": "10ml",
+          "unit": "Ống",
+          "quantity": 30,
+          "instructions": "Sáng uống 1 ống sau ăn"
+        },
+        {
+          "generic_name": "Vitamin C",
+          "brand_name": "Upsa C",
+          "dosage": "1000mg",
+          "unit": "Viên sủi",
+          "quantity": 10,
+          "instructions": "Sáng uống 1 viên (hòa tan trong nước)"
+        },
+        {
+          "generic_name": "Magnesium B6",
+          "brand_name": "Magne-B6 Corbiere",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Trưa uống 1 viên sau ăn"
+        },
+        {
+          "generic_name": "Artificial Tears",
+          "brand_name": "Refresh",
+          "dosage": "15ml",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Nhỏ mắt khi mỏi, khô"
+        }
+      ],
+      "follow_up_date": "05/11/2026",
+      "prescription_date": "ngày 08 tháng 10 năm 2026",
+      "notes": "Bệnh nhân nhớ tái khám đúng hẹn và mang theo sổ khám bệnh.",
+      "lab_tests": "Sinh hóa máu (Glucose, HbA1c, Lipid máu, Chức năng gan thận), Điện tâm đồ.",
+      "barcode_bottom": "000000000107",
+      "duration_days": 28,
+      "error_type": "missing_digit",
+      "error_description": "Số lượng thiếu chữ số: 60 -> 0"
+    },
+    {
+      "id": 54,
+      "patient": {
+        "name": "NGUYỄN VĂN MẠNH",
+        "age": 58,
+        "gender": "Nam",
+        "address": "ấp 3, Xã Vị thủy, Thành phố Cần Thơ",
+        "insurance_code": "BT2939321351869 - 93002"
+      },
+      "prescription_code": "25898237",
+      "diagnosis": "Z95.4: Sự có mặt của van tim thay thế khác; I10;E78;I25;J44;K21: Bệnh tăng huyết áp vô căn (nguyên phát); Rối loạn chuyển hóa lipoprotein và tình trạng tăng lipid máu khác; Bệnh tim thiếu máu cục bộ mạn; Các bệnh phổi tắc nghẽn mãn tính khác; Bệnh trào ngược dạ dày - thực quản; VAN CƠ HỌC",
+      "doctor": {
+        "name": "Lê Thị Kim Đài",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Amlodipine",
+          "brand_name": "Amlor",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Metformin",
+          "brand_name": "Glucophage XR",
+          "dosage": "750mg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 viên sau ăn tối"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "20mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Bisoprolol",
+          "brand_name": "Concor",
+          "dosage": "2.5mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Esomeprazole",
+          "brand_name": "Nexium",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên trước ăn sáng 30 phút"
+        },
+        {
+          "generic_name": "Celecoxib",
+          "brand_name": "Celebrex",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 15,
+          "instructions": "Ngày uống 1 viên sau ăn no (khi đau)"
+        },
+        {
+          "generic_name": "Eperisone",
+          "brand_name": "Myonal",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 lần, mỗi lần 1 viên sau ăn"
+        },
+        {
+          "generic_name": "Mecobalamin",
+          "brand_name": "Methycobal",
+          "dosage": "500mcg",
+          "unit": "Ống",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 lần, mỗi lần 1 viên"
+        },
+        {
+          "generic_name": "Loratadine",
+          "brand_name": "Clarityne",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 10,
+          "instructions": "Ngày uống 1 viên buổi tối (khi ngứa mũi)"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Panadol",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 20,
+          "instructions": "Uống 1 viên khi đau đầu, cách mỗi 4-6 giờ"
+        },
+        {
+          "generic_name": "Ginkgo Biloba",
+          "brand_name": "Tanakan",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 lần, mỗi lần 1 viên"
+        },
+        {
+          "generic_name": "Calcium D3",
+          "brand_name": "Calcium Corbiere",
+          "dosage": "10ml",
+          "unit": "Ống",
+          "quantity": 30,
+          "instructions": "Sáng uống 1 ống sau ăn"
+        },
+        {
+          "generic_name": "Vitamin C",
+          "brand_name": "Upsa C",
+          "dosage": "1000mg",
+          "unit": "Viên sủi",
+          "quantity": 10,
+          "instructions": "Sáng uống 1 viên (hòa tan trong nước)"
+        },
+        {
+          "generic_name": "Magnesium B6",
+          "brand_name": "Magne-B6 Corbiere",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Trưa uống 1 viên sau ăn"
+        },
+        {
+          "generic_name": "Artificial Tears",
+          "brand_name": "Refresh",
+          "dosage": "15ml",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Nhỏ mắt khi mỏi, khô"
+        }
+      ],
+      "follow_up_date": "02/05/2026",
+      "prescription_date": "ngày 04 tháng 04 năm 2026",
+      "notes": "Bệnh nhân nhớ tái khám đúng hẹn và mang theo sổ khám bệnh.",
+      "lab_tests": "Sinh hóa máu (Glucose, HbA1c, Lipid máu, Chức năng gan thận), Điện tâm đồ.",
+      "barcode_bottom": "000000000108",
+      "duration_days": 28,
+      "error_type": "wrong_unit",
+      "error_description": "Sai đơn vị tính nghiêm trọng: Viên -> Ống"
+    },
+    {
+      "id": 55,
+      "patient": {
+        "name": "TRẦN ĐỨC TRẬN",
+        "age": 58,
+        "gender": "Nam",
+        "address": "ấp 3, Xã Vị thủy, Thành phố Cần Thơ",
+        "insurance_code": "BT2939321351869 - 93002"
+      },
+      "prescription_code": "25872385",
+      "diagnosis": "Z95.4: Sự có mặt của van tim thay thế khác; I10;E78;I25;J44;K21: Bệnh tăng huyết áp vô căn (nguyên phát); Rối loạn chuyển hóa lipoprotein và tình trạng tăng lipid máu khác; Bệnh tim thiếu máu cục bộ mạn; Các bệnh phổi tắc nghẽn mãn tính khác; Bệnh trào ngược dạ dày - thực quản; VAN CƠ HỌC",
+      "doctor": {
+        "name": "Lê Thị Kim Đài",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Amlodipine",
+          "brand_name": "Amlor",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Metformin",
+          "brand_name": "Glucophage XR",
+          "dosage": "750mg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 viên sau ăn tối"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "20mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Bisoprolol",
+          "brand_name": "Concor",
+          "dosage": "2.5mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Esomeprazole",
+          "brand_name": "Nexium",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Ngày uống 1 viên trước ăn sáng 30 phút"
+        },
+        {
+          "generic_name": "Celecoxib",
+          "brand_name": "Celebrex",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 15,
+          "instructions": "Ngày uống 1 viên sau ăn no (khi đau)"
+        },
+        {
+          "generic_name": "Eperisone",
+          "brand_name": "Myonal",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 lần, mỗi lần 1 viên sau ăn"
+        },
+        {
+          "generic_name": "Mecobalamin",
+          "brand_name": "Methycobal",
+          "dosage": "500mcg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 lần, mỗi lần 1 viên"
+        },
+        {
+          "generic_name": "Loratadine",
+          "brand_name": "Clarityne",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 10,
+          "instructions": "Ngày uống 1 viên buổi tối (khi ngứa mũi)"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Panadol",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 200,
+          "instructions": "Uống 1 viên khi đau đầu, cách mỗi 4-6 giờ"
+        },
+        {
+          "generic_name": "Ginkgo Biloba",
+          "brand_name": "Tanakan",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 60,
+          "instructions": "Ngày uống 2 lần, mỗi lần 1 viên"
+        },
+        {
+          "generic_name": "Calcium D3",
+          "brand_name": "Calcium Corbiere",
+          "dosage": "10ml",
+          "unit": "Ống",
+          "quantity": 30,
+          "instructions": "Sáng uống 1 ống sau ăn"
+        },
+        {
+          "generic_name": "Vitamin C",
+          "brand_name": "Upsa C",
+          "dosage": "1000mg",
+          "unit": "Viên sủi",
+          "quantity": 10,
+          "instructions": "Sáng uống 1 viên (hòa tan trong nước)"
+        },
+        {
+          "generic_name": "Magnesium B6",
+          "brand_name": "Magne-B6 Corbiere",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 30,
+          "instructions": "Trưa uống 1 viên sau ăn"
+        },
+        {
+          "generic_name": "Artificial Tears",
+          "brand_name": "Refresh",
+          "dosage": "15ml",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Nhỏ mắt khi mỏi, khô"
+        }
+      ],
+      "follow_up_date": "02/02/2026",
+      "prescription_date": "ngày 05 tháng 01 năm 2026",
+      "notes": "Bệnh nhân nhớ tái khám đúng hẹn và mang theo sổ khám bệnh.",
+      "lab_tests": "Sinh hóa máu (Glucose, HbA1c, Lipid máu, Chức năng gan thận), Điện tâm đồ.",
+      "barcode_bottom": "000000000109",
+      "duration_days": 28,
+      "error_type": "wrong_quantity_x10",
+      "error_description": "Số lượng thuốc Panadol gấp 10 lần bình thường"
+    },
+    {
+      "id": 56,
+      "patient": {
+        "name": "PHAN MINH GIANG",
+        "age": 12,
+        "gender": "Nữ",
+        "address": "309 Đường CMT8, TP.HCM",
+        "insurance_code": "DN5851743075"
+      },
+      "prescription_code": "25490088",
+      "diagnosis": "L20.9: Viêm da cơ địa",
+      "doctor": {
+        "name": "Trần Thị B",
+        "title": "ThS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Hydrocortisone_Cream",
+          "brand_name": "Eumovate",
+          "dosage": "15g",
+          "unit": "Tuýp",
+          "quantity": 1,
+          "instructions": "Bôi vùng da viêm 2 lần/ngày"
+        },
+        {
+          "generic_name": "Sildenafil",
+          "brand_name": "Viagra",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "instructions": "Uống khi cần",
+          "quantity": 10
+        },
+        {
+          "generic_name": "Isosorbide Mononitrate",
+          "brand_name": "Imdur",
+          "dosage": "60mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên sáng",
+          "quantity": 10
+        }
+      ],
+      "follow_up_date": "17/11/2026",
+      "prescription_date": "ngày 20 tháng 10 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000001",
+      "duration_days": 28,
+      "error_type": "drug_interaction",
+      "error_description": "Tương tác thuốc CHẾT NGƯỜI: Nitrat + Viagra (Tụt huyết áp trụy mạch)"
+    },
+    {
+      "id": 57,
+      "patient": {
+        "name": "ĐẶNG NGỌC TÙNG",
+        "age": 21,
+        "gender": "Nam",
+        "address": "124 Đường Trần Hưng Đạo, Đà Nẵng",
+        "insurance_code": "DN7527247967"
+      },
+      "prescription_code": "25975933",
+      "diagnosis": "H10.1: Viêm kết mạc cấp; G47.0: Rối loạn giấc ngủ",
+      "doctor": {
+        "name": "Hoàng Thị E",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Tobramycin_Drop",
+          "brand_name": "Tobrex",
+          "dosage": "0.3%",
+          "unit": "Lọ",
+          "quantity": 2,
+          "instructions": "Nhỏ mắt ngày 3 lần"
+        },
+        {
+          "generic_name": "Vitamin C",
+          "brand_name": "Upsa C",
+          "dosage": "1000mg",
+          "unit": "Viên sủi",
+          "quantity": 7,
+          "instructions": "Uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Nước muối sinh lý",
+          "brand_name": "Nacl 0.9%",
+          "dosage": "10ml",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Nhỏ mắt mũi ngày 3 lần"
+        },
+        {
+          "generic_name": "Rotunda",
+          "brand_name": "Rotunda",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 1-2 viên trước khi ngủ"
+        },
+        {
+          "generic_name": "Magnesium_B6",
+          "brand_name": "Magne-B6",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Simvastatin",
+          "brand_name": "Zocor",
+          "dosage": "20mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên tối",
+          "quantity": 10
+        },
+        {
+          "generic_name": "Clarithromycin",
+          "brand_name": "Klacid",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 2 viên",
+          "quantity": 10
+        }
+      ],
+      "follow_up_date": "28/08/2026",
+      "prescription_date": "ngày 21 tháng 08 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000009",
+      "duration_days": 7,
+      "error_type": "drug_interaction",
+      "error_description": "Tương tác thuốc nghiêm trọng: Simvastatin + Clarithromycin (Tiêu cơ vân)"
+    },
+    {
+      "id": 58,
+      "patient": {
+        "name": "BÙI VĂN SƠN",
+        "age": 12,
+        "gender": "Nam",
+        "address": "938 Đường 3/2, TP.HCM",
+        "insurance_code": "DN5801132557"
+      },
+      "prescription_code": "25264350",
+      "diagnosis": "J20.9: Viêm phế quản cấp",
+      "doctor": {
+        "name": "Vũ Văn F",
+        "title": "BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Cefuroxime",
+          "brand_name": "Zinnat",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên sau ăn (sáng, tối)"
+        },
+        {
+          "generic_name": "Amoxicillin_Clavulanate",
+          "brand_name": "Klamentin",
+          "dosage": "875/125mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên sau ăn"
+        },
+        {
+          "generic_name": "Doxycycline",
+          "brand_name": "Doxycycline",
+          "dosage": "100mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên",
+          "quantity": 10
+        }
+      ],
+      "follow_up_date": "13/09/2026",
+      "prescription_date": "ngày 06 tháng 09 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000011",
+      "duration_days": 7,
+      "error_type": "age_warning",
+      "error_description": "Cảnh báo tuổi: Kê Doxycycline cho trẻ em (nguy cơ hỏng men răng)"
+    },
+    {
+      "id": 59,
+      "patient": {
+        "name": "HUỲNH MINH MAI",
+        "age": 18,
+        "gender": "Nữ",
+        "address": "285 Đường Nguyễn Huệ, Cần Thơ",
+        "insurance_code": "DN8145496951"
+      },
+      "prescription_code": "25146653",
+      "diagnosis": "J20.9: Viêm phế quản cấp; G47.0: Rối loạn giấc ngủ",
+      "doctor": {
+        "name": "Phạm Minh D",
+        "title": "TS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Amoxicillin_Clavulanate",
+          "brand_name": "Augmentin",
+          "dosage": "1g",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên (sáng, chiều) sau ăn"
+        },
+        {
+          "generic_name": "Cefuroxime",
+          "brand_name": "Zinnat",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên sau ăn (sáng, tối)"
+        },
+        {
+          "generic_name": "Salbutamol",
+          "brand_name": "Ventolin",
+          "dosage": "2mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên khi khó thở"
+        },
+        {
+          "generic_name": "Rotunda",
+          "brand_name": "Rotunda",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 1-2 viên trước khi ngủ"
+        },
+        {
+          "generic_name": "Melatonin",
+          "brand_name": "Melatonin",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên trước ngủ 30 phút"
+        },
+        {
+          "generic_name": "Magnesium_B6",
+          "brand_name": "Magne-B6",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Spironolactone",
+          "brand_name": "Verospiron",
+          "dosage": "25mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên",
+          "quantity": 10
+        },
+        {
+          "generic_name": "Kalium Chloride",
+          "brand_name": "Kaleorid",
+          "dosage": "600mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 2 viên",
+          "quantity": 10
+        }
+      ],
+      "follow_up_date": "13/03/2026",
+      "prescription_date": "ngày 06 tháng 03 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000015",
+      "duration_days": 7,
+      "error_type": "drug_interaction",
+      "error_description": "Tương tác thuốc: Lợi tiểu giữ Kali + Bổ sung Kali (Tăng Kali máu gây ngưng tim)"
+    },
+    {
+      "id": 60,
+      "patient": {
+        "name": "LÝ THANH TÂM",
+        "age": 5,
+        "gender": "Nữ",
+        "address": "478 Đường CMT8, Cần Thơ",
+        "insurance_code": "DN4854641556"
+      },
+      "prescription_code": "25320231",
+      "diagnosis": "J00: Viêm mũi họng cấp",
+      "doctor": {
+        "name": "Vũ Văn F",
+        "title": "BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Nước muối sinh lý",
+          "brand_name": "Nacl 0.9%",
+          "dosage": "10ml",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Nhỏ mắt mũi ngày 3 lần"
+        },
+        {
+          "generic_name": "Vitamin C",
+          "brand_name": "Upsa C",
+          "dosage": "1000mg",
+          "unit": "Viên sủi",
+          "quantity": 7,
+          "instructions": "Uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Warfarin",
+          "brand_name": "Coumadin",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên",
+          "quantity": 10
+        },
+        {
+          "generic_name": "Aspirin",
+          "brand_name": "Aspirin 81mg",
+          "dosage": "81mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên",
+          "quantity": 10
+        }
+      ],
+      "follow_up_date": "17/08/2026",
+      "prescription_date": "ngày 10 tháng 08 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000016",
+      "duration_days": 7,
+      "error_type": "drug_interaction",
+      "error_description": "Tương tác thuốc nghiêm trọng: Warfarin + Aspirin (Nguy cơ xuất huyết nội)"
+    },
+    {
+      "id": 61,
+      "patient": {
+        "name": "HOÀNG ĐỨC LAN",
+        "age": 2,
+        "gender": "Nữ",
+        "address": "285 Đường CMT8, Hải Phòng",
+        "insurance_code": "DN4868211141"
+      },
+      "prescription_code": "25282160",
+      "diagnosis": "L20.9: Viêm da cơ địa",
+      "doctor": {
+        "name": "Phạm Minh D",
+        "title": "TS.BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Vitamin C",
+          "brand_name": "Upsa C",
+          "dosage": "1000mg",
+          "unit": "Viên sủi",
+          "quantity": 28,
+          "instructions": "Uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Cetirizine",
+          "brand_name": "Zyrtec",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Ciprofloxacin",
+          "brand_name": "Ciprobay",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 2 viên",
+          "quantity": 10
+        }
+      ],
+      "follow_up_date": "29/11/2026",
+      "prescription_date": "ngày 01 tháng 11 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000022",
+      "duration_days": 28,
+      "error_type": "age_warning",
+      "error_description": "Cảnh báo tuổi: Kê Quinolone (Ciprofloxacin) cho trẻ em < 12 tuổi"
+    },
+    {
+      "id": 62,
+      "patient": {
+        "name": "ĐỖ HỮU HÙNG",
+        "age": 3,
+        "gender": "Nam",
+        "address": "438 Đường Nguyễn Huệ, Hải Phòng",
+        "insurance_code": "DN7874690397"
+      },
+      "prescription_code": "25111136",
+      "diagnosis": "H10.1: Viêm kết mạc cấp",
+      "doctor": {
+        "name": "Lê Vũ C",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Tobramycin_Drop",
+          "brand_name": "Tobrex",
+          "dosage": "0.3%",
+          "unit": "Lọ",
+          "quantity": 2,
+          "instructions": "Nhỏ mắt ngày 3 lần"
+        },
+        {
+          "generic_name": "Warfarin",
+          "brand_name": "Coumadin",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên",
+          "quantity": 10
+        },
+        {
+          "generic_name": "Aspirin",
+          "brand_name": "Aspirin 81mg",
+          "dosage": "81mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên",
+          "quantity": 10
+        }
+      ],
+      "follow_up_date": "04/05/2026",
+      "prescription_date": "ngày 27 tháng 04 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000025",
+      "duration_days": 7,
+      "error_type": "drug_interaction",
+      "error_description": "Tương tác thuốc nghiêm trọng: Warfarin + Aspirin (Nguy cơ xuất huyết nội)"
+    },
+    {
+      "id": 63,
+      "patient": {
+        "name": "NGÔ MINH THẢO",
+        "age": 5,
+        "gender": "Nam",
+        "address": "900 Đường CMT8, Cần Thơ",
+        "insurance_code": "DN4091986531"
+      },
+      "prescription_code": "25340930",
+      "diagnosis": "H10.1: Viêm kết mạc cấp",
+      "doctor": {
+        "name": "Lê Vũ C",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Tobramycin_Drop",
+          "brand_name": "Tobrex",
+          "dosage": "0.3%",
+          "unit": "Lọ",
+          "quantity": 2,
+          "instructions": "Nhỏ mắt ngày 3 lần"
+        },
+        {
+          "generic_name": "Nước muối sinh lý",
+          "brand_name": "Nacl 0.9%",
+          "dosage": "10ml",
+          "unit": "Lọ",
+          "quantity": 2,
+          "instructions": "Nhỏ mắt mũi ngày 3 lần"
+        },
+        {
+          "generic_name": "Doxycycline",
+          "brand_name": "Doxycycline",
+          "dosage": "100mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên",
+          "quantity": 10
+        }
+      ],
+      "follow_up_date": "26/12/2025",
+      "prescription_date": "ngày 19 tháng 12 năm 2025",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000032",
+      "duration_days": 7,
+      "error_type": "age_warning",
+      "error_description": "Cảnh báo tuổi: Kê Doxycycline cho trẻ em (nguy cơ hỏng men răng)"
+    },
+    {
+      "id": 64,
+      "patient": {
+        "name": "VÕ THU SƠN",
+        "age": 58,
+        "gender": "Nữ",
+        "address": "52 Đường Trần Hưng Đạo, TP.HCM",
+        "insurance_code": "DN7608303985"
+      },
+      "prescription_code": "25602662",
+      "diagnosis": "K73.9: Viêm gan mạn tính; E78.0: Tăng cholesterol máu thuần; H10.1: Viêm kết mạc cấp",
+      "doctor": {
+        "name": "Nguyễn Văn A",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Vitamin B_Group",
+          "brand_name": "Neurobion",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Fenofibrate",
+          "brand_name": "Lipanthyl",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Vitamin C",
+          "brand_name": "Upsa C",
+          "dosage": "1000mg",
+          "unit": "Viên sủi",
+          "quantity": 7,
+          "instructions": "Uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Tobramycin_Drop",
+          "brand_name": "Tobrex",
+          "dosage": "0.3%",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Nhỏ mắt ngày 3 lần"
+        },
+        {
+          "generic_name": "Warfarin",
+          "brand_name": "Coumadin",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên",
+          "quantity": 10
+        },
+        {
+          "generic_name": "Aspirin",
+          "brand_name": "Aspirin 81mg",
+          "dosage": "81mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên",
+          "quantity": 10
+        }
+      ],
+      "follow_up_date": "06/04/2026",
+      "prescription_date": "ngày 09 tháng 03 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000040",
+      "duration_days": 28,
+      "error_type": "drug_interaction",
+      "error_description": "Tương tác thuốc nghiêm trọng: Warfarin + Aspirin (Nguy cơ xuất huyết nội)"
+    },
+    {
+      "id": 65,
+      "patient": {
+        "name": "VÕ KIM OANH",
+        "age": 68,
+        "gender": "Nữ",
+        "address": "618 Đường Võ Văn Kiệt, Đà Nẵng",
+        "insurance_code": "DN5315963068"
+      },
+      "prescription_code": "25416242",
+      "diagnosis": "G47.0: Rối loạn giấc ngủ; I10: Tăng huyết áp vô căn",
+      "doctor": {
+        "name": "Vũ Văn F",
+        "title": "BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Melatonin",
+          "brand_name": "Melatonin",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên trước ngủ 30 phút"
+        },
+        {
+          "generic_name": "Rotunda",
+          "brand_name": "Rotunda",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 1-2 viên trước khi ngủ"
+        },
+        {
+          "generic_name": "Perindopril",
+          "brand_name": "Coversyl",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng trước ăn"
+        },
+        {
+          "generic_name": "Telmisartan",
+          "brand_name": "Micardis",
+          "dosage": "40mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Simvastatin",
+          "brand_name": "Zocor",
+          "dosage": "20mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên tối",
+          "quantity": 10
+        },
+        {
+          "generic_name": "Clarithromycin",
+          "brand_name": "Klacid",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 2 viên",
+          "quantity": 10
+        }
+      ],
+      "follow_up_date": "18/11/2026",
+      "prescription_date": "ngày 21 tháng 10 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000043",
+      "duration_days": 28,
+      "error_type": "drug_interaction",
+      "error_description": "Tương tác thuốc nghiêm trọng: Simvastatin + Clarithromycin (Tiêu cơ vân)"
+    },
+    {
+      "id": 66,
+      "patient": {
+        "name": "LÊ THANH BÌNH",
+        "age": 3,
+        "gender": "Nam",
+        "address": "366 Đường Trần Hưng Đạo, Cần Thơ",
+        "insurance_code": "DN6254748449"
+      },
+      "prescription_code": "25701397",
+      "diagnosis": "J20.9: Viêm phế quản cấp; L20.9: Viêm da cơ địa",
+      "doctor": {
+        "name": "Hoàng Thị E",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Acetylcysteine",
+          "brand_name": "Exomuc",
+          "dosage": "200mg",
+          "unit": "Gói",
+          "quantity": 7,
+          "instructions": "Hòa tan uống, ngày 2 gói"
+        },
+        {
+          "generic_name": "Salbutamol",
+          "brand_name": "Ventolin",
+          "dosage": "2mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên khi khó thở"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Panadol",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên khi đau/sốt, cách mỗi 4-6h"
+        },
+        {
+          "generic_name": "Cefuroxime",
+          "brand_name": "Zinnat",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên sau ăn (sáng, tối)"
+        },
+        {
+          "generic_name": "Hydrocortisone_Cream",
+          "brand_name": "Eumovate",
+          "dosage": "15g",
+          "unit": "Tuýp",
+          "quantity": 1,
+          "instructions": "Bôi vùng da viêm 2 lần/ngày"
+        },
+        {
+          "generic_name": "Vitamin C",
+          "brand_name": "Upsa C",
+          "dosage": "1000mg",
+          "unit": "Viên sủi",
+          "quantity": 28,
+          "instructions": "Uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Cetirizine",
+          "brand_name": "Zyrtec",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Fexofenadine",
+          "brand_name": "Telfast",
+          "dosage": "180mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sáng"
+        },
+        {
+          "generic_name": "Doxycycline",
+          "brand_name": "Doxycycline",
+          "dosage": "100mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên",
+          "quantity": 10
+        }
+      ],
+      "follow_up_date": "06/08/2026",
+      "prescription_date": "ngày 09 tháng 07 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000045",
+      "duration_days": 28,
+      "error_type": "age_warning",
+      "error_description": "Cảnh báo tuổi: Kê Doxycycline cho trẻ em (nguy cơ hỏng men răng)"
+    },
+    {
+      "id": 67,
+      "patient": {
+        "name": "PHAN MẠNH OANH",
+        "age": 75,
+        "gender": "Nam",
+        "address": "907 Đường Võ Văn Kiệt, Hải Phòng",
+        "insurance_code": "DN7367651575"
+      },
+      "prescription_code": "25760561",
+      "diagnosis": "J44.9: Bệnh phổi tắc nghẽn mạn tính (COPD)",
+      "doctor": {
+        "name": "Lê Vũ C",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Tiotropium",
+          "brand_name": "Spiriva",
+          "dosage": "18mcg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Hít 1 viên mỗi sáng"
+        },
+        {
+          "generic_name": "Budesonide",
+          "brand_name": "Pulmicort",
+          "dosage": "0.5mg",
+          "unit": "Ống",
+          "quantity": 56,
+          "instructions": "Khí dung 1 ống x 2 lần/ngày"
+        },
+        {
+          "generic_name": "Spironolactone",
+          "brand_name": "Verospiron",
+          "dosage": "25mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên",
+          "quantity": 10
+        },
+        {
+          "generic_name": "Kalium Chloride",
+          "brand_name": "Kaleorid",
+          "dosage": "600mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 2 viên",
+          "quantity": 10
+        }
+      ],
+      "follow_up_date": "15/09/2026",
+      "prescription_date": "ngày 18 tháng 08 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000046",
+      "duration_days": 28,
+      "error_type": "drug_interaction",
+      "error_description": "Tương tác thuốc: Lợi tiểu giữ Kali + Bổ sung Kali (Tăng Kali máu gây ngưng tim)"
+    },
+    {
+      "id": 68,
+      "patient": {
+        "name": "ĐỖ XUÂN PHÚC",
+        "age": 93,
+        "gender": "Nam",
+        "address": "758 Đường CMT8, TP.HCM",
+        "insurance_code": "DN6768227029"
+      },
+      "prescription_code": "25337363",
+      "diagnosis": "G47.0: Rối loạn giấc ngủ; I25.1: Bệnh tim thiếu máu cục bộ mạn",
+      "doctor": {
+        "name": "Vũ Văn F",
+        "title": "BS"
+      },
+      "medications": [
+        {
+          "generic_name": "Melatonin",
+          "brand_name": "Melatonin",
+          "dosage": "5mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên trước ngủ 30 phút"
+        },
+        {
+          "generic_name": "Rotunda",
+          "brand_name": "Rotunda",
+          "dosage": "30mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 1-2 viên trước khi ngủ"
+        },
+        {
+          "generic_name": "Magnesium_B6",
+          "brand_name": "Magne-B6",
+          "dosage": "Tab",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Aspirin",
+          "brand_name": "Aspirin Cardio",
+          "dosage": "81mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Nitroglycerin",
+          "brand_name": "Nitromint",
+          "dosage": "2.6mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên (sáng, tối)"
+        },
+        {
+          "generic_name": "Sildenafil",
+          "brand_name": "Viagra",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "instructions": "Uống khi cần",
+          "quantity": 10
+        },
+        {
+          "generic_name": "Isosorbide Mononitrate",
+          "brand_name": "Imdur",
+          "dosage": "60mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên sáng",
+          "quantity": 10
+        }
+      ],
+      "follow_up_date": "27/06/2026",
+      "prescription_date": "ngày 30 tháng 05 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000061",
+      "duration_days": 28,
+      "error_type": "drug_interaction",
+      "error_description": "Tương tác thuốc CHẾT NGƯỜI: Nitrat + Viagra (Tụt huyết áp trụy mạch)"
+    },
+    {
+      "id": 69,
+      "patient": {
+        "name": "ĐỖ THỊ GIANG",
+        "age": 63,
+        "gender": "Nữ",
+        "address": "914 Đường Nguyễn Huệ, Hải Phòng",
+        "insurance_code": "DN9127298646"
+      },
+      "prescription_code": "25910952",
+      "diagnosis": "E11: Đái tháo đường type 2",
+      "doctor": {
+        "name": "Nguyễn Văn A",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Insulin_Glargine",
+          "brand_name": "Lantus",
+          "dosage": "100U/ml",
+          "unit": "Bút tiêm",
+          "quantity": 28,
+          "instructions": "Tiêm dưới da 10 đơn vị buổi tối"
+        },
+        {
+          "generic_name": "Sitagliptin",
+          "brand_name": "Januvia",
+          "dosage": "100mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi sáng"
+        },
+        {
+          "generic_name": "Sildenafil",
+          "brand_name": "Viagra",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "instructions": "Uống khi cần",
+          "quantity": 10
+        },
+        {
+          "generic_name": "Isosorbide Mononitrate",
+          "brand_name": "Imdur",
+          "dosage": "60mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên sáng",
+          "quantity": 10
+        }
+      ],
+      "follow_up_date": "10/02/2026",
+      "prescription_date": "ngày 13 tháng 01 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000075",
+      "duration_days": 28,
+      "error_type": "drug_interaction",
+      "error_description": "Tương tác thuốc CHẾT NGƯỜI: Nitrat + Viagra (Tụt huyết áp trụy mạch)"
+    },
+    {
+      "id": 70,
+      "patient": {
+        "name": "VÕ HỮU SƠN",
+        "age": 70,
+        "gender": "Nữ",
+        "address": "21 Đường 3/2, Hải Phòng",
+        "insurance_code": "DN9517088144"
+      },
+      "prescription_code": "25597094",
+      "diagnosis": "M17: Thoái hóa khớp gối; J44.9: Bệnh phổi tắc nghẽn mạn tính (COPD); I63.9: Di chứng nhồi máu não",
+      "doctor": {
+        "name": "Lê Vũ C",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Panadol",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Uống 1 viên khi đau/sốt, cách mỗi 4-6h"
+        },
+        {
+          "generic_name": "Glucosamine",
+          "brand_name": "Viartril-S",
+          "dosage": "1500mg",
+          "unit": "Gói",
+          "quantity": 28,
+          "instructions": "Uống 1 gói trước ăn sáng"
+        },
+        {
+          "generic_name": "Salbutamol_Inhaler",
+          "brand_name": "Ventolin Inhaler",
+          "dosage": "100mcg",
+          "unit": "Lọ",
+          "quantity": 1,
+          "instructions": "Xịt 2 nhát khi lên cơn khó thở"
+        },
+        {
+          "generic_name": "Aspirin",
+          "brand_name": "Aspirin Cardio",
+          "dosage": "81mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Piracetam",
+          "brand_name": "Nootropil",
+          "dosage": "800mg",
+          "unit": "Viên",
+          "quantity": 84,
+          "instructions": "Ngày uống 3 viên sau ăn"
+        },
+        {
+          "generic_name": "Sildenafil",
+          "brand_name": "Viagra",
+          "dosage": "50mg",
+          "unit": "Viên",
+          "instructions": "Uống khi cần",
+          "quantity": 10
+        },
+        {
+          "generic_name": "Isosorbide Mononitrate",
+          "brand_name": "Imdur",
+          "dosage": "60mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên sáng",
+          "quantity": 10
+        }
+      ],
+      "follow_up_date": "09/03/2026",
+      "prescription_date": "ngày 09 tháng 02 năm 2026",
+      "notes": "",
+      "lab_tests": "CT-Scanner, MRI, Huyết đồ",
+      "barcode_bottom": "000000000079",
+      "duration_days": 28,
+      "error_type": "drug_interaction",
+      "error_description": "Tương tác thuốc CHẾT NGƯỜI: Nitrat + Viagra (Tụt huyết áp trụy mạch)"
+    },
+    {
+      "id": 71,
+      "patient": {
+        "name": "NGUYỄN VĂN TRANG",
+        "age": 11,
+        "gender": "Nam",
+        "address": "782 Đường Nguyễn Huệ, Hà Nội",
+        "insurance_code": "DN9978692297"
+      },
+      "prescription_code": "25103686",
+      "diagnosis": "J20.9: Viêm phế quản cấp",
+      "doctor": {
+        "name": "Lê Vũ C",
+        "title": "BS.CKII"
+      },
+      "medications": [
+        {
+          "generic_name": "Acetylcysteine",
+          "brand_name": "Exomuc",
+          "dosage": "200mg",
+          "unit": "Gói",
+          "quantity": 7,
+          "instructions": "Hòa tan uống, ngày 2 gói"
+        },
+        {
+          "generic_name": "Amoxicillin_Clavulanate",
+          "brand_name": "Klamentin",
+          "dosage": "875/125mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên sau ăn"
+        },
+        {
+          "generic_name": "Cefuroxime",
+          "brand_name": "Zinnat",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 14,
+          "instructions": "Ngày uống 2 viên sau ăn (sáng, tối)"
+        },
+        {
+          "generic_name": "Paracetamol",
+          "brand_name": "Panadol",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên khi đau/sốt, cách mỗi 4-6h"
+        },
+        {
+          "generic_name": "Salbutamol",
+          "brand_name": "Ventolin",
+          "dosage": "2mg",
+          "unit": "Viên",
+          "quantity": 7,
+          "instructions": "Uống 1 viên khi khó thở"
+        },
+        {
+          "generic_name": "Doxycycline",
+          "brand_name": "Doxycycline",
+          "dosage": "100mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên",
+          "quantity": 10
+        }
+      ],
+      "follow_up_date": "08/11/2026",
+      "prescription_date": "ngày 01 tháng 11 năm 2026",
+      "notes": "",
+      "lab_tests": "",
+      "barcode_bottom": "000000000083",
+      "duration_days": 7,
+      "error_type": "age_warning",
+      "error_description": "Cảnh báo tuổi: Kê Doxycycline cho trẻ em (nguy cơ hỏng men răng)"
+    },
+    {
+      "id": 72,
+      "patient": {
+        "name": "VŨ THANH EM",
+        "age": 46,
+        "gender": "Nam",
+        "address": "942 Đường CMT8, Hà Nội",
+        "insurance_code": "DN8429217381"
+      },
+      "prescription_code": "25119995",
+      "diagnosis": "E78.0: Tăng cholesterol máu thuần; G40.9: Bệnh động kinh",
+      "doctor": {
+        "name": "Hoàng Thị E",
+        "title": "BS.CKI"
+      },
+      "medications": [
+        {
+          "generic_name": "Ezetimibe",
+          "brand_name": "Ezetrol",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Fenofibrate",
+          "brand_name": "Lipanthyl",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên sau ăn trưa"
+        },
+        {
+          "generic_name": "Atorvastatin",
+          "brand_name": "Lipitor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên buổi tối"
+        },
+        {
+          "generic_name": "Rosuvastatin",
+          "brand_name": "Crestor",
+          "dosage": "10mg",
+          "unit": "Viên",
+          "quantity": 28,
+          "instructions": "Ngày uống 1 viên tối"
+        },
+        {
+          "generic_name": "Valproic_Acid",
+          "brand_name": "Depakin",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên sau ăn"
+        },
+        {
+          "generic_name": "Carbamazepine",
+          "brand_name": "Tegretol",
+          "dosage": "200mg",
+          "unit": "Viên",
+          "quantity": 56,
+          "instructions": "Ngày uống 2 viên"
+        },
+        {
+          "generic_name": "Simvastatin",
+          "brand_name": "Zocor",
+          "dosage": "20mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 1 viên tối",
+          "quantity": 10
+        },
+        {
+          "generic_name": "Clarithromycin",
+          "brand_name": "Klacid",
+          "dosage": "500mg",
+          "unit": "Viên",
+          "instructions": "Ngày uống 2 viên",
+          "quantity": 10
+        }
+      ],
+      "follow_up_date": "06/07/2026",
+      "prescription_date": "ngày 08 tháng 06 năm 2026",
+      "notes": "Tái khám nhớ mang theo đơn thuốc này.",
+      "lab_tests": "",
+      "barcode_bottom": "000000000091",
+      "duration_days": 28,
+      "error_type": "drug_interaction",
+      "error_description": "Tương tác thuốc nghiêm trọng: Simvastatin + Clarithromycin (Tiêu cơ vân)"
+    }
+  ]
+}

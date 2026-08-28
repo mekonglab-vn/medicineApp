@@ -1,0 +1,10 @@
+# Local environment and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Rendered documents. One committed example lives at
+# output/example_multi_diagnosis.pdf; everything else you generate stays local.
+output/*
+!output/example_multi_diagnosis.pdf
