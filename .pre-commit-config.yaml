@@ -1,0 +1,43 @@
+# Pre-commit configuration
+# Xem tất cả hooks: https://pre-commit.com/hooks.html
+
+repos:
+  # Các hooks cơ bản
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace      # Xóa khoảng trắng cuối dòng
+      - id: end-of-file-fixer        # Đảm bảo file kết thúc bằng newline
+      - id: check-yaml               # Kiểm tra syntax YAML
+      - id: check-json               # Kiểm tra syntax JSON
+      - id: check-added-large-files  # Cảnh báo file lớn (>500KB)
+        args: ['--maxkb=500']
+      - id: check-merge-conflict     # Kiểm tra conflict markers
+      - id: detect-private-key       # Phát hiện private key
+
+  # Python code formatting với Black
+  - repo: https://github.com/psf/black
+    rev: 24.1.1
+    hooks:
+      - id: black
+        language_version: python3
+        args: ['--line-length=88']
+
+  # Sort imports với isort
+  - repo: https://github.com/pycqa/isort
+    rev: 5.13.2
+    hooks:
+      - id: isort
+        args: ['--profile=black']
+
+  # Python linting với flake8
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.0.0
+    hooks:
+      - id: flake8
+        args: ['--max-line-length=88', '--extend-ignore=E203']
+
+# Cấu hình CI (optional)
+ci:
+  autofix_prs: true
+  autoupdate_schedule: weekly

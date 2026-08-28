@@ -1,0 +1,56 @@
+{
+  "mcnemar_exact_test": {
+    "b_gain": 14,
+    "c_loss": 9,
+    "n_discordant": 23,
+    "net_gain": 5,
+    "two_sided_p_value": 0.4048728942871094,
+    "interpretation": "Non-significant (p = 0.4049 >= 0.05), indicating numerical improvement without strong hypothesis rejection."
+  },
+  "capture_level_bootstrap_95ci": {
+    "delta_f1_pct": {
+      "point_estimate": 3.39,
+      "ci_lower": -3.18,
+      "ci_upper": 10.18
+    },
+    "delta_coverage_pct": {
+      "point_estimate": 2.19,
+      "ci_lower": -0.8,
+      "ci_upper": 6.29
+    },
+    "delta_recall_pct": {
+      "point_estimate": 3.65,
+      "ci_lower": -3.79,
+      "ci_upper": 11.35
+    },
+    "delta_precision_pct": {
+      "point_estimate": 3.13,
+      "ci_lower": -2.86,
+      "ci_upper": 9.48
+    }
+  },
+  "prescription_clustered_bootstrap_95ci": {
+    "delta_f1_pct": {
+      "point_estimate": 3.39,
+      "ci_lower": 0.0,
+      "ci_upper": 7.21
+    }
+  },
+  "multi_granularity_f1": {
+    "drug_instance_micro": {
+      "r0": 76.75,
+      "r1": 80.15,
+      "delta": 3.39
+    },
+    "capture_macro": {
+      "r0": 76.94,
+      "r1": 80.57,
+      "delta": 3.63
+    },
+    "prescription_macro": {
+      "r0": 86.2,
+      "r1": 88.42,
+      "delta": 2.21
+    }
+  }
+}

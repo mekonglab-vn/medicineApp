@@ -1,0 +1,5 @@
+strategy,micro_precision,micro_recall,micro_f1,macro_precision,macro_recall,macro_f1,lookup_confirmed_recall,tp,fp,fn,gt_total
+p0_raw_text,0.8936,0.3002,0.4494,0.8402,0.8236,0.7829,0.0,504,60,1175,1679
+p1_sorted_lines,0.8936,0.3002,0.4494,0.8402,0.8236,0.7829,0.0,504,60,1175,1679
+p2_row_clusters,0.8279,0.2549,0.3898,0.8316,0.5629,0.6381,0.059,428,89,1251,1679
+p3_medication_bands,0.9063,0.1959,0.3222,0.8516,0.5481,0.621,0.0536,329,34,1350,1679

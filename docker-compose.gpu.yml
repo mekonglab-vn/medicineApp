@@ -1,0 +1,22 @@
+# ============================================
+# MedicineApp — Docker Compose GPU Acceleration Override
+#
+# Usage (Workstations with NVIDIA GPU + Container Toolkit):
+#   docker compose -f docker-compose.yml -f docker-compose.gpu.yml up -d
+# ============================================
+
+services:
+  python-ai:
+    build:
+      context: .
+      dockerfile: server/Dockerfile.gpu
+    environment:
+      CUDA_VISIBLE_DEVICES: "0"
+      DEVICE: "cuda"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]

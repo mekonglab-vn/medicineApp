@@ -1,0 +1,7 @@
+granularity,condition,description,visible_ocr_coverage,precision,recall,f1_score,sample_size
+Drug-Instance Micro,r0,R0: Full-Page Smartphone Capture,0.9051,0.7761,0.7591,0.7675,137
+Drug-Instance Micro,r1,R1: Medication Table ROI Re-OCR,0.927,0.8074,0.7956,0.8015,137
+Capture-Macro,r0,R0: Full-Page Smartphone Capture,0.9067,0.7783,0.77,0.7694,30
+Capture-Macro,r1,R1: Medication Table ROI Re-OCR,0.93,0.81,0.81,0.8057,30
+Prescription-Macro,r0,R0: Full-Page Smartphone Capture,0.9737,0.8213,0.9207,0.862,5
+Prescription-Macro,r1,R1: Medication Table ROI Re-OCR,0.9798,0.8428,0.9434,0.8842,5

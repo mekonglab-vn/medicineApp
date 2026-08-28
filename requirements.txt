@@ -1,0 +1,33 @@
+# ============================================
+# MedicineApp — Full Dependencies
+# ============================================
+
+# Core
+torch>=2.0
+torchvision>=0.15
+ultralytics>=8.0
+opencv-python>=4.8
+Pillow>=10.0
+pyyaml>=6.0
+numpy>=1.24
+
+# OCR
+paddlepaddle>=2.5
+paddleocr>=2.7
+vietocr>=0.3
+
+# NLP / GCN
+transformers>=4.30
+sentence-transformers>=2.2
+torch-geometric>=2.0
+timm>=0.9
+networkx>=3.0
+scipy>=1.10
+
+# Server
+fastapi>=0.100
+uvicorn>=0.20
+python-multipart>=0.0.5
+
+# Utils
+rapidfuzz>=3.0

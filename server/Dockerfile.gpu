@@ -1,0 +1,50 @@
+# ============================================
+# MedicineApp Python AI Server — GPU Dockerfile
+# Base: NVIDIA CUDA 12.4 + Ubuntu 22.04 / Python 3.12
+# Optional GPU acceleration for CUDA-enabled environments
+# ============================================
+FROM nvidia/cuda:12.4.1-runtime-ubuntu22.04
+
+ENV DEBIAN_FRONTEND=noninteractive \
+    PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PORT=8000 \
+    CUDA_VISIBLE_DEVICES=0 \
+    DEVICE=cuda
+
+# Install Python 3.12 and runtime system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    software-properties-common \
+    curl \
+    libgomp1 \
+    python3.12 \
+    python3.12-venv \
+    python3.12-dev && \
+    ln -sf /usr/bin/python3.12 /usr/bin/python3 && \
+    ln -sf /usr/bin/python3.12 /usr/bin/python && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN curl -sS https://bootstrap.pypa.io/get-pip.py | python3.12
+
+WORKDIR /app
+
+# Step 1: Install PyTorch with CUDA 12.4 support
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir \
+    torch torchvision \
+    --index-url https://download.pytorch.org/whl/cu124
+
+# Step 2: Install application dependencies
+COPY server/requirements.txt ./server/requirements.txt
+RUN pip install --no-cache-dir -r server/requirements.txt
+
+# Step 3: Copy application source code
+COPY core/ ./core/
+COPY server/ ./server/
+
+EXPOSE 8000
+
+HEALTHCHECK --interval=15s --timeout=5s --start-period=30s --retries=3 \
+  CMD curl -f http://localhost:8000/api/health || curl -f http://localhost:8000/health || exit 1
+
+CMD ["uvicorn", "server.main:app", "--host", "0.0.0.0", "--port", "8000"]

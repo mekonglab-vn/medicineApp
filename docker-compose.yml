@@ -1,0 +1,113 @@
+# ============================================
+# MedicineApp — Unified Docker Compose Stack
+# PostgreSQL 16 + Node.js API + FastAPI AI Proxy
+#
+# Single Command Execution:
+#   docker compose up -d
+#
+# Logs & Inspection:
+#   docker compose logs -f
+#   curl http://localhost:3000/health
+#   curl http://localhost:8000/api/health
+# ============================================
+
+services:
+  # ── PostgreSQL 16 Database ──
+  postgres:
+    image: postgres:16-alpine
+    container_name: medicineapp_db
+    restart: unless-stopped
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:-medicine_app}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - medicineapp-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-medicine_app}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+
+  # ── Python FastAPI AI Proxy (CPU Default) ──
+  python-ai:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    container_name: medicineapp_ai
+    restart: unless-stopped
+    ports:
+      - "${PYTHON_PORT:-8000}:8000"
+    environment:
+      PYTHONUNBUFFERED: "1"
+      FLAGS_enable_pir_api: "0"
+      PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK: "True"
+      DEVICE: "cpu"
+      PORT: 8000
+    volumes:
+      - ./models:/app/models:ro
+      - ./data:/app/data:ro
+      - ai_cache:/root/.cache
+    networks:
+      - medicineapp-net
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8000/api/health || curl -f http://localhost:8000/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      start_period: 30s
+      retries: 3
+
+  # ── Node.js Express API Server ──
+  node-api:
+    build:
+      context: ./server-node
+      dockerfile: Dockerfile
+    container_name: medicineapp_node
+    restart: unless-stopped
+    ports:
+      - "${NODE_PORT:-3000}:3000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      python-ai:
+        condition: service_healthy
+    environment:
+      PORT: 3000
+      NODE_ENV: ${NODE_ENV:-development}
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}@postgres:5432/${POSTGRES_DB:-medicine_app}
+      PYTHON_API_URL: http://python-ai:8000
+      AI_SERVICE_URL: http://python-ai:8000
+      JWT_SECRET: ${JWT_SECRET:?Set JWT_SECRET in .env}
+      JWT_EXPIRES_IN: ${JWT_EXPIRES_IN:-15m}
+      JWT_REFRESH_EXPIRES_IN: ${JWT_REFRESH_EXPIRES_IN:-7d}
+      RATE_LIMIT_WINDOW_MS: 900000
+      RATE_LIMIT_MAX: 300
+      AUTH_RATE_LIMIT_MAX: 20
+      MAX_FILE_SIZE_MB: 10
+      LOG_LEVEL: info
+      DATA_DIR: /app/data
+      AUTO_SEED: "true"
+    volumes:
+      - ./data:/app/data:ro
+    networks:
+      - medicineapp-net
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:3000/api/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      start_period: 20s
+      retries: 3
+
+volumes:
+  postgres_data:
+  ai_cache:
+
+networks:
+  medicineapp-net:
+    driver: bridge

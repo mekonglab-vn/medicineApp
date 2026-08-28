@@ -1,0 +1,66 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+server-node/.env
+mobile/.env
+mobile/android/key.properties
+*.jks
+*.keystore
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+server-node/node_modules/
+server-node/coverage/
+server-node/storage/
+
+# Flutter and Android
+mobile/.dart_tool/
+mobile/.flutter-plugins*
+mobile/.pub/
+mobile/build/
+mobile/coverage/
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/android/.cxx/
+**/failures/
+
+# Restricted research inputs and generated outputs
+data/*
+!data/README.md
+!data/examples/
+!data/examples/**
+models/*
+!models/README.md
+reports/**/mlkit_ocr/
+reports/**/*predictions*.jsonl
+reports/**/per_capture.csv
+reports/**/per_prescription.csv
+reports/**/r1_recovered_drugs.json
+reports/**/p3_fixes_examples.json
+
+# Model weights and archives
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.zip
+*.tar
+*.tar.gz
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

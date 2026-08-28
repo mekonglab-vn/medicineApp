@@ -1,0 +1,19 @@
+# Python AI image uses the repository root as its Docker build context.
+# Keep this allowlist aligned with COPY instructions in server/Dockerfile.
+**
+
+!requirements.txt
+
+!core/
+!core/**
+
+!server/
+!server/**
+
+# Generated/runtime files are never part of the image source.
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/.pytest_cache/
+server/.env
+server/**/*.log

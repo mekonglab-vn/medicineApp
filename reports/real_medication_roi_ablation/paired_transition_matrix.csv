@@ -1,0 +1,8 @@
+transition,count
+R0 Correct ──▶ R1 Correct (Both Success),95
+R0 Wrong   ──▶ R1 Correct (R1 Recovery Gain ★),14
+R0 Correct ──▶ R1 Wrong   (R1 Regression Loss),9
+R0 Wrong   ──▶ R1 Wrong   (Both Missed),19
+TOTAL VISIBLE DRUG INSTANCES,137
+NET RECOVERY GAIN (b - c),5
+EXACT MCNEMAR / BINOMIAL 2-SIDED P-VALUE,0.4049

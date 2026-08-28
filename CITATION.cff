@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite the associated ISBM 2026 paper when using this research artifact."
+title: "MedicineApp: ISBM 2026 Public Research Artifact"
+type: software
+version: 1.0.0-isbm2026
+date-released: 2026-08-28
+url: "https://github.com/mekonglab-vn/medicineapp-isbm-2026"
+repository-code: "https://github.com/mekonglab-vn/medicineapp-isbm-2026"
+license: MIT
+authors:
+  - family-names: Luu
+    given-names: Tien-Dao
+    affiliation: "College of Information and Communication Technology, Can Tho University"
+  - family-names: Nguyen
+    given-names: Nhat-Hong-Phuoc
+    affiliation: "College of Information and Communication Technology, Can Tho University"
+  - family-names: Tran-Nguyen
+    given-names: Minh-Thu
+    affiliation: "College of Information and Communication Technology, Can Tho University"
+  - family-names: Tran
+    given-names: Viet-Chau
+    affiliation: "College of Information and Communication Technology, Can Tho University"
+keywords:
+  - prescription digitization
+  - optical character recognition
+  - named entity recognition
+  - mobile information systems
+  - Vietnamese clinical NLP
