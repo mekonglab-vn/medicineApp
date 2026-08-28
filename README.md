@@ -1,8 +1,15 @@
 <div align="center">
-  <img src="mobile/logo_1024x1024.png" alt="MedicineApp logo" width="160">
+  <img src="docs/assets/logo.png" alt="MedicineApp logo" width="120">
   <h1>MedicineApp</h1>
   <p><strong>Extracting medication information from Vietnamese prescriptions on a smartphone.</strong><br>
   Public research artifact for the ISBM 2026 paper.</p>
+
+  [![License: MIT](https://img.shields.io/badge/license-MIT-a3a3a3)](LICENSE)
+  [![Paper](https://img.shields.io/badge/paper-ISBM%202026%20%E2%80%A2%20Springer%20LNNS-0f766e)](#project-overview)
+  [![Python](https://img.shields.io/badge/python-3.10%20%E2%80%93%203.12-3776AB?logo=python&logoColor=white)](#prerequisites)
+  [![Flutter](https://img.shields.io/badge/flutter-stable-02569B?logo=flutter&logoColor=white)](#the-application)
+  [![Reproducibility](https://img.shields.io/badge/reproducibility-verified-0f766e)](REPRODUCIBILITY.md)
+
   <p>
     <a href="#what-you-can-run">What you can run</a> ·
     <a href="#from-the-paper-to-the-code">Paper → code</a> ·
@@ -34,18 +41,9 @@ The study holds the downstream model fixed and varies exactly one stage at a tim
 
 Readers arriving from the paper should begin with [**From the paper to the code**](#from-the-paper-to-the-code), which links every claim to the file that implements it.
 
-```mermaid
-flowchart LR
-    A[Smartphone prescription image] --> B[Document crop and perspective correction]
-    B --> C[On-device Google ML Kit OCR]
-    C --> D[Layout representation: P0-P3]
-    D --> E[PhoBERT medication NER]
-    E --> F[Drug-name normalization]
-    F --> G[Human review in Flutter app]
-    G --> H[Medication plan and reminders]
-    B -. optional user-selected table ROI .-> I[ROI re-OCR: R1]
-    I --> D
-```
+<p align="center"><img src="docs/assets/fig1_architecture.png" alt="System architecture and controlled experimental design" width="720"></p>
+
+**Figure 1 — system architecture and controlled experimental design** (reproduced from the paper). *Top:* the mobile pipeline scans a prescription on-device and passes ML Kit OCR text through the fixed extraction pipeline into the information system. *Bottom:* the two controlled comparisons this repository implements — (a) the P0–P3 layout ablation (RQ1) and (b) the paired R0/R1 re-OCR experiment (RQ2) — sharing the same fixed downstream pipeline and scored only against ground truth, never using it to localize the ROI.
 
 ---
 
@@ -58,8 +56,8 @@ Each experimental claim in the paper corresponds to a specific file in this repo
 | Paper concept | Implementation | Notes |
 | :-- | :-- | :-- |
 | OCR layout representations **P0–P3** | [`core/classify/mlkit_layout_adapter.py`](core/classify/mlkit_layout_adapter.py) → `MLKitLayoutAdapter.process(strategy=...)` | Strategy keys are `p0_raw_text`, `p1_sorted_lines`, `p2_row_clusters`, `p3_medication_bands` |
-| P2 row clustering (vertical overlap + center distance) | `MLKitLayoutAdapter.cluster_rows()` | |
-| P3 serial-number-anchored medication bands | `MLKitLayoutAdapter.group_medication_bands()` | Falls back to P2 when no anchor is found |
+| P2 row clustering (vertical overlap + center distance) | [`core/classify/mlkit_layout_adapter.py`](core/classify/mlkit_layout_adapter.py) → `MLKitLayoutAdapter.cluster_rows()` | |
+| P3 serial-number-anchored medication bands | [`core/classify/mlkit_layout_adapter.py`](core/classify/mlkit_layout_adapter.py) → `MLKitLayoutAdapter.group_medication_bands()` | Falls back to P2 when no anchor is found |
 | Frozen PhoBERT medication NER | [`core/classify/ner_extractor.py`](core/classify/ner_extractor.py) | `vinai/phobert-base-v2`; `underthesea` word segmentation |
 | Drug-name normalization (`DrugLookup`) | [`core/drug_search/drug_lookup.py`](core/drug_search/drug_lookup.py) | RapidFuzz token-set / partial-ratio, `MIN_SCORE = 65` |
 | Downstream post-filter | [`core/classify/post_filter.py`](core/classify/post_filter.py), [`core/classify/ai_semantic_filter.py`](core/classify/ai_semantic_filter.py) | |
@@ -85,15 +83,15 @@ Each experimental claim in the paper corresponds to a specific file in this repo
 
 The prescription images, ground truth, model checkpoint, and provider drug catalog are deliberately withheld, so how far a reader can go depends on what they can supply. The levels below are cumulative; choose one before installing anything.
 
-| Level | What you need | What you get | Status |
+| Level | What you need | What you get | Availability |
 | :-- | :-- | :-- | :-- |
-| **0 — Read** | Nothing | Full source of the mobile app, both backends, the pipeline, and all benchmark code | ✅ Always |
-| **1 — Verify results** | Python 3 only (no dependencies) | `./reproduce.sh` re-checks every published number: the P0–P3 table, R0/R1 metrics, the `95+14+9+19=137` transition sum, the exact McNemar p-value, and the stored bootstrap intervals | ✅ Always |
-| **2 — Build & test the app** | Flutter + Android SDK | `flutter analyze`, `flutter test` (unit, widget, and golden tests), and a debug build of the full UI on an emulator or device | ✅ Always |
-| **3 — Run the services** | Docker + Compose | PostgreSQL, the Node.js API, and the FastAPI AI service. `docker compose up --build` brings up all three | ✅ Always |
-| **4 — Make your own test prescriptions** | Python, and LibreOffice for PDF | [`tools/prescription_generator/`](tools/prescription_generator) generates synthetic Vietnamese prescriptions — fictional patients, doctors, and clinic — as JSON → DOCX → PDF, with optional medical-error injection. Print or display them and scan them from the app | ✅ Always |
-| **5 — Run end-to-end extraction** | Level 3 plus a PhoBERT checkpoint and a drug catalog | The complete scan → OCR → NER → normalization → review flow. Without these two resources the extraction and drug-lookup stages return empty results | ⚠️ Needs the controlled supplement |
-| **6 — Re-execute the paper experiments** | Level 5 plus the authorized OCR observations and ground truth | Exact reproduction of the RQ1 and RQ2 numbers | 🔒 On request — see [Data and model availability](#data-and-model-availability) |
+| **0 — Read** | Nothing | Full source of the mobile app, both backends, the pipeline, and all benchmark code | Public |
+| **1 — Verify results** | Python 3 only (no dependencies) | `./reproduce.sh` re-checks every published number: the P0–P3 table, R0/R1 metrics, the `95+14+9+19=137` transition sum, the exact McNemar p-value, and the stored bootstrap intervals | Public |
+| **2 — Build & test the app** | Flutter + Android SDK | `flutter analyze`, `flutter test` (unit, widget, and golden tests), and a debug build of the full UI on an emulator or device | Public |
+| **3 — Run the services** | Docker + Compose | PostgreSQL, the Node.js API, and the FastAPI AI service. `docker compose up --build` brings up all three | Public |
+| **4 — Make your own test prescriptions** | Python, and LibreOffice for PDF | [`tools/prescription_generator/`](tools/prescription_generator) generates synthetic Vietnamese prescriptions — fictional patients, doctors, and clinic — as JSON → DOCX → PDF, with optional medical-error injection. Print or display them and scan them from the app | Public |
+| **5 — Run end-to-end extraction** | Level 3 plus a PhoBERT checkpoint and a drug catalog | The complete scan → OCR → NER → normalization → review flow. Without these two resources the extraction and drug-lookup stages return empty results | Requires the controlled archive |
+| **6 — Re-execute the paper experiments** | Level 5 plus the authorized OCR observations and ground truth | Exact reproduction of the RQ1 and RQ2 numbers | On request — see [Data and model availability](#data-and-model-availability) |
 
 > **Level 4 removes the usual barrier to trying a clinical-data project.** Generated prescriptions are printed or displayed and then scanned by the app, which exercises the genuine capture, cropping, and on-device OCR path. Only the two data-dependent stages, NER extraction and drug lookup, wait on Level 5.
 
@@ -119,6 +117,21 @@ This validates the published result tables, the transition arithmetic, the exact
 ## The application
 
 The Flutter client covers the full workflow: 18 screens across 20 routes, Riverpod state management, `go_router` navigation, and an Android platform bridge to the ML Kit document scanner. Building it and running its test suite require **no private data**, which is Level 2 above.
+
+<p align="center">
+  <img src="docs/assets/screenshots/login.png" alt="Login screen" width="140">
+  &nbsp;
+  <img src="docs/assets/screenshots/home.png" alt="Home screen" width="140">
+  &nbsp;
+  <img src="docs/assets/screenshots/plans.png" alt="Medication plan screen" width="140">
+  &nbsp;
+  <img src="docs/assets/screenshots/lookup.png" alt="Drug lookup screen" width="140">
+  &nbsp;
+  <img src="docs/assets/screenshots/notification.png" alt="Dose reminder notification" width="140">
+</p>
+<p align="center"><em>Running on a physical Android device: login, the home dashboard, a medication plan (created directly through the app — Track A), drug lookup, and a dose-reminder notification. The lookup screen is shown after seeding a local copy of the provider drug catalog for illustration only; on Track A alone, without that catalog, it returns no matches.</em></p>
+
+**Figure 2 — client navigation graph.** Highlighted routes are where the pipeline in Figure 1 meets the user: on-device capture, then mandatory human review of the extracted drugs.
 
 ```mermaid
 flowchart TD
@@ -162,16 +175,16 @@ There are two ways through this repository. **Track A** needs nothing beyond pub
 
 | | Track A — public | Track B — controlled |
 | :-- | :-- | :-- |
-| Source code, all of it | ✅ | ✅ |
-| `./reproduce.sh` result verification | ✅ | ✅ |
-| Build and test the Flutter client | ✅ | ✅ |
-| Start PostgreSQL, the Node API, the AI service | ✅ | ✅ |
-| Account sign-up, medication plans, schedules, reminders | ✅ | ✅ |
-| Generate synthetic prescriptions to scan | ✅ | ✅ |
-| On-device document scan and ML Kit OCR | ✅ | ✅ |
-| **NER extraction of drug names from a scan** | ✖ needs the checkpoint | ✅ |
-| **Drug search and interaction lookup** | ✖ needs the drug database | ✅ |
-| Exact reproduction of the RQ1/RQ2 numbers | ✖ | ✅ |
+| Source code, all of it | Yes | Yes |
+| `./reproduce.sh` result verification | Yes | Yes |
+| Build and test the Flutter client | Yes | Yes |
+| Start PostgreSQL, the Node API, the AI service | Yes | Yes |
+| Account sign-up, medication plans, schedules, reminders | Yes | Yes |
+| Generate synthetic prescriptions to scan | Yes | Yes |
+| On-device document scan and ML Kit OCR | Yes | Yes |
+| **NER extraction of drug names from a scan** | No — needs the checkpoint | Yes |
+| **Drug search and interaction lookup** | No — needs the drug database | Yes |
+| Exact reproduction of the RQ1/RQ2 numbers | No | Yes |
 
 Track A is the honest boundary of what public code alone can do: the client runs and the capture path works end to end, but the two data-dependent stages return empty results until you supply a checkpoint and a drug catalog. Both come from the archive described under [Track B](#track-b-with-the-controlled-supplement).
 
