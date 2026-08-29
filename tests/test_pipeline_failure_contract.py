@@ -9,7 +9,7 @@ import numpy as np
 from fastapi import HTTPException, UploadFile
 
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from server import main

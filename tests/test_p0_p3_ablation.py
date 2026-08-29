@@ -1,5 +1,5 @@
 """
-scripts/tests/test_p0_p3_ablation.py — P0 -> P1 -> P2 -> P3 Ablation Benchmark and Diagnostic Cascade.
+tests/test_p0_p3_ablation.py — P0 -> P1 -> P2 -> P3 Ablation Benchmark and Diagnostic Cascade.
 
 Ablation Levels:
 - P0: Raw OCR lines (baseline unordered / plain dump)

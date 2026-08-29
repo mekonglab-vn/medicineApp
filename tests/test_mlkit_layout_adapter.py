@@ -1,11 +1,11 @@
 """
-scripts/tests/test_mlkit_layout_adapter.py — Unit tests for MLKitLayoutAdapter.
+tests/test_mlkit_layout_adapter.py — Unit tests for MLKitLayoutAdapter.
 """
 
 import sys
 from pathlib import Path
 
-ROOT = str(Path(__file__).resolve().parents[2])
+ROOT = str(Path(__file__).resolve().parents[1])
 if ROOT not in sys.path:
     sys.path.insert(0, ROOT)
 

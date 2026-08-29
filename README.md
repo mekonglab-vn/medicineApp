@@ -318,6 +318,7 @@ Reconstructing the *experiments* rather than the model additionally requires col
 | `server/` | Python FastAPI AI service |
 | `server-node/` | Node.js API, PostgreSQL persistence, auth, plans, interaction services |
 | `scripts/` | Pipeline runner, RQ1/RQ2 benchmarks, NER data prep and training, phone OCR orchestration, public verifier |
+| `tests/` | Python test suite; no restricted inputs required |
 | `tools/prescription_generator/` | Synthetic Vietnamese prescription generator with medical-error injection |
 | `reports/` | Aggregate publication CSV/JSON only |
 | `data/`, `models/` | Availability instructions; no data, no weights |

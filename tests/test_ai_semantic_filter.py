@@ -1,5 +1,5 @@
 """
-scripts/tests/test_ai_semantic_filter.py
+tests/test_ai_semantic_filter.py
 
 Test AISemanticFilter and MedicinePipeline on debug scan outputs.
 """
@@ -8,7 +8,7 @@ import sys
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent.parent
+ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from core.classify.ai_semantic_filter import AISemanticFilter

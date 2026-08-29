@@ -6,8 +6,9 @@
 - `core/`: extraction and normalization pipeline.
 - `server/` and `server-node/`: API implementation.
 - `scripts/`: benchmark implementations, on-device orchestration, and public verifier.
+- `tools/`: synthetic prescription generator.
 - `reports/`: aggregate CSV/JSON only.
-- `tests/`: tests that do not require restricted files.
+- `tests/`: the full Python test suite; no test requires a restricted file.
 
 ## Explicitly excluded
 
